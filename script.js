@@ -16,6 +16,3 @@ function run(){
     content.style.display = 'block';
     
     }
-
-
-    

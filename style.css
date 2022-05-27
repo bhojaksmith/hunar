@@ -5,6 +5,7 @@ body{
     /* background: linear-gradient(to right, #f, #FFFFFF);  */
     background-color: #F4F4FF;
     font-family: montserrat;    
+    cursor: url('assets/cursor.svg'), auto;	
 }
 ::selection {
     background: #6C3FEA; /* WebKit/Blink Browsers */
@@ -167,14 +168,18 @@ body{
     font-weight: 800;
 }
 .innerCard{
-    padding:0% 1.5% 1.5% 0%;
+    margin:0% 1.5% 1.5% 0%;
     width: 25vw;
+    border-radius: 8px;
     transition: ease-in 300ms;
+
     
 }
 .innerCard:hover{
     transform: scale(1.025);
+    
     cursor:pointer;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, .4);
     
 }
 .mobile{

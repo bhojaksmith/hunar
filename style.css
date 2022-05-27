@@ -1,0 +1,285 @@
+body{
+    overflow-x: clip;
+    overflow-x: hidden;
+    margin: 0 !important;
+    /* background: linear-gradient(to right, #f, #FFFFFF);  */
+    background-color: #F4F4FF;
+    font-family: montserrat;    
+}
+::selection {
+    background: #6C3FEA; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #6C3FEA; /* Gecko Browsers */
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f7f7f7; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6C3FEA; 
+    border-radius: 8px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4f2bb3; 
+  }
+
+
+  .loaderParent{
+    display: flex;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: ease-out 2s;
+    animation:fadeOut 1s linear;
+  }
+  .loader{
+    width: 400%;
+    transform: translate(0%, 100%);
+  }
+
+  .navBarContainer {
+    z-index: 2;
+    animation: slideDown 600ms ease-in-out;
+    padding: 1% 0% 1% 10%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background:#FAFAFB;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #FAFAFB;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.05);
+   }
+   .navbuttons{
+    font-weight: 600;
+    color: black;
+    display: flex;
+    margin-right: 20%;
+   }
+   
+   .contact{
+        font-weight: 400;
+        color:white;
+        background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
+        border-radius: 24px;
+   }
+   .navbuttons div{
+        
+        font-size: 0.75vw;
+        margin-right: 1vw;
+        padding:0.5vw  1vw ;
+   }
+   .navBarLogo{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        
+   }
+   .logo{
+   width: 10vw;
+   }
+   .logo-heading {
+    margin:0%;
+   }
+   
+   .title1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    color: black; 
+    font-size: 3.5vw !important;
+    font-weight:700;
+    letter-spacing: 2%;
+  }
+  
+ 
+
+  .title2{
+    padding-top: 1%;
+    margin: 0% !important; 
+    background: linear-gradient(89.94deg, #6C3FEA -5.94%, #3EEDF9 112.92%);
+    font-size: 3.5vw;
+    font-weight:700;
+    text-align: left;
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2%;
+    line-height: 3.5vw;
+    width: fit-content;
+  }  
+   
+.heroContent{
+    animation: slideUp 500ms ease-in-out;
+    padding-top: 8%;
+    padding-left: 8%;
+    display: flex;
+    width: 82%;
+    align-items: flex-start;
+    justify-content: space-around;
+}   
+.heroText{
+    width: 42%;
+}
+.heroImage{
+    width: 38vw;
+}
+
+.header{
+    text-align: justify;
+    margin:3% 0%;
+    font-size: 1.1vw;
+    font-weight:400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.connectCTA{
+    display: flex;
+    color: black;
+
+}
+.arrow{
+    margin-left: 2%;
+    width: 1vw;
+}
+
+.burgerIcon {
+    display: none;
+}
+.portfolio{
+    padding: 0% 10% ;
+    animation: slideUp 500ms ease-in-out;
+    width: 100%;
+    overflow: clip;
+}
+.cardTitle{
+    font-size:2vw  !important;
+    padding: 1% 0%;
+    font-weight: 800;
+}
+.innerCard{
+    padding:0% 1.5% 1.5% 0%;
+    width: 25vw;
+    transition: ease-in 300ms;
+    
+}
+.innerCard:hover{
+    transform: scale(1.025);
+    cursor:pointer;
+    
+}
+@media screen and (min-width: 1440px) {
+     
+}
+
+@media screen and (min-width: 1920px) {
+  
+}
+
+@media screen and (max-width: 991px) {
+ 
+}
+
+@media screen and (max-width: 479px) {
+    body{
+        
+        width: 100%;
+        overflow-x: clip;
+        overflow-x: hidden;
+    }
+    .navBarContainer{
+        flex-direction: column;
+        align-items: center;
+        padding : 5% 5% 5% 0%;
+    }
+    
+    .navbuttons{
+      
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 3%;
+        /* border: 1px solid white; */
+        margin:0% !important;
+      }
+   
+      .contact{
+       background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
+       border-radius: 24px;
+      }
+      .navbuttons div{
+      
+       font-size: 3.5vw;
+       margin-right: 4vw;
+       padding: 2% 4% ;
+       
+      }
+       .logo-header {
+         padding: 3% 0%;
+         flex-direction: column;
+         z-index: 2;
+       }
+       .logo {
+         width: 32vw;
+       }
+     .heroContent{
+        padding-top: 35%;
+        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+     }
+     .heroImage{
+        
+        width:100vw ;
+        
+     }
+     .heroText{
+        
+         width: 100%;
+     }
+     .title1{
+        text-align: left;
+        font-size: 8vw !important;
+     }
+     .title2{
+        text-align: left;
+        font-size: 8vw !important;
+        line-height: 100%;
+     }
+     .header{
+         font-size: 4vw;
+     }
+     .arrow{
+         width: 4vw;
+     }
+     .cardTitle{
+        font-size:6vw  !important;
+        padding: 5% 0%;
+    }
+    .innerCard{
+        width: 90vw;
+        padding: 1% !important;
+        
+    }
+   .portfolio{
+       padding: 5%;
+       width: 100%;
+   }
+}
+
+ 

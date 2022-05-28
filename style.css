@@ -193,9 +193,7 @@ body{
     box-shadow: 8px 8px 24px rgba(0, 0, 0, .4);
     
 }
-.mobile{
-  display: none;
-}
+
 .testimonials{
   
   width: 100%;
@@ -245,8 +243,9 @@ body{
   background-color: #6C3FEA !important;
 }
 .form-control{
+  font-family: montserrat,sans-serif;
   border:none !important;
-  border-radius: 0px !important;
+  border-radius: 48px !important;
   border-bottom: 1px solid rgba(0, 0, 0, .4) !important;
   box-shadow: none !important;
 }
@@ -256,6 +255,49 @@ input{
 .label{
   border: none !important;
 }
+.smithbhavin{
+  display: flex;
+  flex-direction: column;
+}
+.us{
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+}
+.profile{
+  display: flex;
+}
+.ourPhoto{
+  width: 15vw;
+  transition: 300ms ease-in;
+}
+.ourName{
+  padding-top: 2%;
+  font-size: 1.25vw;
+  font-weight: 600;
+}
+.ourNumber{
+  font-size: 1vw;
+}
+.ourMail{
+  padding-top: 2%;
+  font-size: 1vw;
+}
+.connectCTA:hover .arrow{
+  margin-left: 2% !important;
+  
+}
+.connectCTA:hover{
+  cursor: url(/assets/pointer.svg),auto;
+}
+.profilePhoto{
+  overflow: clip;
+  border-radius: 100%;
+}
+.us:hover .ourPhoto{
+  transform: scale(1.06);
+}
+
 @media screen and (min-width: 1440px) {
      
 }
@@ -391,6 +433,30 @@ input{
   .carousel-indicators{
     bottom: 0px !important;  
     margin-bottom: 0% !important;
+  }
+  .smithbhavin{
+    flex-direction: column ;  
+  }
+  .profile{
+    flex-direction: column;
+  }
+  .us{
+    padding-bottom: 5%;
+  }
+  .ourPhoto{
+    width: 45vw;
+  }
+  .ourName{
+    padding-top: 2%;
+    font-size: 5.25vw;
+    font-weight: 600;
+  }
+  .ourNumber{
+    font-size: 5vw;
+  }
+  .ourMail{
+    padding-top: 2%;
+    font-size: 5vw;
   }
 }
 

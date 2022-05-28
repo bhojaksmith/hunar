@@ -54,7 +54,7 @@
                              create user centered design & experiences for open source 
                              softwares, learn more about it here
                          </div>  
-                         <div class="header connectCTA">
+                         <div class="header connectCTA" data-toggle="modal" data-target="#modalContactForm">
                              Connect with us <img src="assets/arrow.svg" class="arrow">
                          </div>
                     </div>
@@ -78,7 +78,7 @@
                   <img src="assets/cards/pitch.png" class="innerCard">
                   <img src="assets/cards/branding.png" class="innerCard">
                   <img src="assets/cards/consultancy.png" class="innerCard">
-                  <img src="assets/cards/connect.png" class="innerCard"> 
+                  <img src="assets/cards/connect.png" class="innerCard" data-toggle="modal" data-target="#modalContactForm"> 
                </div>
             </div>
             <div class="testimonials">
@@ -165,42 +165,33 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Want to talk to us?</h4>
+        
+         
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+         <span aria-hidden="true">&times;</span>
         </button>
+
+        <div class="smithbhavin">
+           <div class="profile">
+               <div class="smith us">
+                  <div class="profilePhoto"><img class="ourPhoto" src="/assets/Smith.png"></div>
+                  <div class="ourName">Smith Bhojak</div>
+                  <div class="ourNumber" href="tel:+919925315681">+91 9925315681</div>
+               </div>
+               <div class="bhavin us">
+                  <div class="profilePhoto"><img class="ourPhoto" src="/assets/bhavin.png"></div>
+                  <div class="ourName">Bhavin Panchasara</div>
+                  <div class="ourNumber" href="tel:+918849918846">+91 8849918846</div>
+               </div>
+           </div>
+           <div class="ourMail">
+              <div>
+                 <a href="mailto:contact@hunardesignstudios.in" target="_blank">contact@hunardesignstudios.in</a>
+              </div>
+           </div>
+        </div>
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form34">Your name</label>
-          <input type="text" id="form34" class="form-control validate">
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form29">Your email</label>
-          <input type="email" id="form29" class="form-control validate">
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fas fa-tag prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form32">Subject</label>
-          <input type="text" id="form32" class="form-control validate">
-        </div>
-
-        <div class="md-form">
-          <i class="fas fa-pencil prefix grey-text"></i>
-          <label data-error="wrong" data-success="right" for="form8">Your message</label>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-unique">Send us a message<i class="fas fa-paper-plane-o ml-1"></i></button>
-      </div>
-    </div>
-  </div>
+   </div>
 </div>
 
          </div>

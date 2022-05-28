@@ -1,10 +1,15 @@
+html{
+  
+  scroll-behavior: smooth;  
+
+}
 body{
   overflow-x: clip;
   overflow-x: hidden;
   margin: 0 !important;
   /* background: linear-gradient(to right, #f, #FFFFFF);  */
   background-color: #F4F4FF;
-  font-family: montserrat,sans-serif;    
+  font-family: 'Montserrat', sans-serif !important;
   cursor: url('assets/cursor.svg'), auto;	
 }
 ::selection {
@@ -74,7 +79,7 @@ body{
   color: black;
   display: flex;
   margin-right: 11%;
-  font-family: montserrat,sans-serif;
+  
   
   /* padding: 3% 0%; */
   color: rgba(0, 0, 0, 0.4);
@@ -88,6 +93,9 @@ body{
       color:white;
       background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
       border-radius: 24px;
+ }
+ .contact:hover{
+   cursor: url('assets/pointer.svg'),auto;
  }
  .navbuttons div{
       
@@ -171,7 +179,7 @@ body{
   padding: 0% 10% ;
   animation: slideUp 500ms ease-in-out;
   width: 100%;
-  overflow: clip;
+  
 }
 .cardTitle{
   font-size:2vw  !important;
@@ -188,9 +196,10 @@ body{
 }
 .innerCard:hover{
   transform: scale(1.025);
+  filter: brightness(120%);
   cursor: url('assets/pointer.svg'), auto;
   
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, .4);
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1);
   
 }
 
@@ -243,7 +252,6 @@ cursor: url(assets/pointer.svg),auto !important;
 background-color: #6C3FEA !important;
 }
 .form-control{
-font-family: montserrat,sans-serif;
 border:none !important;
 border-radius: 48px !important;
 border-bottom: 1px solid rgba(0, 0, 0, .4) !important;
@@ -264,14 +272,21 @@ display: flex;
 flex-direction: column;
 padding-right: 5%;
 }
-.profile{
+.smithbhavin{
 display: flex;
+flex-direction: row ;
+justify-content: center;
+align-items: center;
 }
-.modal{
-  width:auto;
+.bhavin{
+  padding-left:7% ;
 }
+.smith{
+  padding-left:7% ;
+}
+
 .ourPhoto{
-width: 14vw;
+width: 13vw;
 transition: 300ms ease-in;
 }
 .ourName{
@@ -293,12 +308,31 @@ margin-left: 2% !important;
 .connectCTA:hover{
 cursor: url(/assets/pointer.svg),auto;
 }
-.profilePhoto{
-overflow: clip;
-border-radius: 100%;
-}
+
+.ourNumber a{
+  color: black;
+  
+ }
 .us:hover .ourPhoto{
-transform: scale(1.06);
+transform: scale(1.02);
+}
+.one,.two,.three,.four{
+  z-index: -1;
+  position: absolute;
+}
+.two,.four{
+  right:0;
+  transform: rotate(180deg);
+}
+.one{
+   margin-top: 41%;
+}
+.two{
+  margin-top: 30%;
+}
+.three{
+  margin-top: 96%;
+  transform: rotate(270deg);
 }
 
 @media screen and (min-width: 1440px) {
@@ -325,7 +359,7 @@ transform: scale(1.06);
   }
   
   .navbuttons{
-      font-family: montserrat,sans-serif;
+      
       display: flex;
       width: 100%;
       justify-content: center;
@@ -370,11 +404,14 @@ transform: scale(1.06);
       
        width: 100%;
    }
+  
    .title1{
+      font-family: 'Montserrat', sans-serif !important;
       text-align: left;
       font-size: 8vw !important;
    }
    .title2{
+     
       text-align: left;
       font-size: 8vw !important;
       line-height: 100%;
@@ -395,11 +432,12 @@ transform: scale(1.06);
       
   }
  .services{
-     padding: 5%;
-     width: 100%;
+  
+    padding: 5%;
+    width: 100%;
  }
  .testimonials{
-
+  
   width: 100%;
   padding: 5% 5%;
 
@@ -461,5 +499,9 @@ transform: scale(1.06);
   padding-top: 2%;
   font-size: 5vw;
 }
+.one,.two,.three{
+  display: none;
+}
+
 }
 

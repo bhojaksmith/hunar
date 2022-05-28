@@ -36,3 +36,16 @@
     50%{padding-left: 1.25%;}
     100%{padding-left: 0%;}
   }
+
+  
+@keyframes upDown {
+   0%{
+      transform: translateY(-5px)
+    } 
+   50%{
+       transform: translateY(10px)
+    }
+    100%{
+      transform: translateY(-10px)
+    }
+}

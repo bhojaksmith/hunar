@@ -16,3 +16,20 @@ function run(){
     content.style.display = 'block';
     
     }
+
+    
+const mediaQuery = window.matchMedia('(min-width: 768px)')
+
+if(mediaQuery.matches){
+  
+  
+  let heroImage = document.querySelector('.heroImage');
+  
+  document.addEventListener('mousemove', function(e) {
+    let xAxis = (window.innerWidth  - e.pageX) / 50;
+    let yAxis = (window.innerHeight  - e.pageY) / 50;
+    heroImage.style.transform = `translateY(${yAxis}px)  translateX(${xAxis}px)`;
+    
+  });
+  
+}

@@ -244,6 +244,18 @@ body{
 .carousel-indicators .active{
   background-color: #6C3FEA !important;
 }
+.form-control{
+  border:none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, .4) !important;
+  box-shadow: none !important;
+}
+input{
+  margin-bottom: 5% !important;
+}
+.label{
+  border: none !important;
+}
 @media screen and (min-width: 1440px) {
      
 }
@@ -256,7 +268,7 @@ body{
  
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 550px) {
   
     .navBarContainer{
         flex-direction: column;
@@ -356,6 +368,7 @@ body{
   }
   
   .testimonialsText{
+    text-align: justify;
     font-size: 5vw;
     font-weight: regular;
   }

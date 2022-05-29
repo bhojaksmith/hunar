@@ -90,16 +90,27 @@ body{
  
  .contact{
       font-weight: 400;
-      color:black;
-      border: 1px solid black;
+      color:white;
+      background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);   
       border-radius: 24px;
+      transition: 300ms ease-in ;
  }
  .contact:hover{
    cursor: url('assets/pointer.svg'),auto;
-   color:white;
-   border: 1px solid white;
-   background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
-   
+   background: linear-gradient(89.96deg, #2d1966 0.85%, #8053FF 99.96%);    
+ }
+ .contact:active{
+  transform: scale(0.95);
+
+ }
+ .schedule:active{
+  transform: scale(0.95);
+  background-color: #1a1a1a;
+ }
+ .innerCard:active{
+  transform: scale(0.5);
+  filter: brightness(110%);
+
  }
  .navbuttons div{
       

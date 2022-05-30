@@ -3,6 +3,10 @@ html{
   scroll-behavior: smooth;  
 
 }
+
+img {
+  pointer-events: none;
+}
 body{
   overflow-x: clip;
   overflow-x: hidden;

@@ -267,6 +267,9 @@ background: url('assets/product/connect.jpg');
     display: flex;
     padding-bottom:5% ;
 }
+.toolIcon{
+    width: 4vw;
+}
 .tools{
     margin:2% 2% 0% 0%;
 }
@@ -335,6 +338,9 @@ background: url('assets/product/connect.jpg');
     font-weight: 400;
 }
 @media screen and (max-width: 550px) {
+    .toolIcon{
+        width: 14vw;
+    }
     .gotoPortfolio{
        
         text-decoration: underline;

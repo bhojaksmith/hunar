@@ -7,11 +7,18 @@ a{
     text-decoration: none;
 }
 .subHeader{
+    
+    
+    
     padding-top: 8%;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    
+    
 }
 .headerText{
+    
     font-size: 2vw;
     padding-left: 1%;
 }
@@ -55,6 +62,7 @@ a{
     grid-template-columns: auto auto;
 }
 .processGrid{
+    text-align: justify;
     margin:0% 3% 3% 0%;
     background-color: #ffffff;
     border-radius: 8px;
@@ -123,7 +131,7 @@ background: url('assets/product/sphereNews.jpg');
 .connect{
 background: url('assets/product/connect.jpg');
 }
-.bhum1Large,.bhumi1{
+.bhumi1{
     background: url('assets/illustrations/bhumi_1.jpg');
 }
 .bhumi2{
@@ -156,7 +164,63 @@ background: url('assets/product/connect.jpg');
 .ShipraKhanna{
     background: url('assets/illustrations/ShipraKhanna.jpg');
 }
+.taapse{
+    background: url('assets/editing/taapse.jpg');
+}
+.indianCricketTeam{
+    background: url('assets/editing/indianCricketTeam.jpg');
+}
+.klaudia{
+    background: url('assets/editing/klaudia.jpg');
+}
+.klaudia2{
+    background: url('assets/editing/klaudia2.jpg');
+}
+.rohit{
+    background: url('assets/editing/rohit.jpg');
+}
+.pollard{
+    background: url('assets/editing/pollard.jpg');
+}
+.krunalPandya{
+    background: url('assets/editing/krunalPandya.jpg');
+}
+.barbara{
+    background: url('assets/editing/barbara.jpg');
+}
+.michelle{
+    background: url('assets/editing/michelle.jpg');
+}
+.angelina{
+    background: url('assets/editing/indianCricketTeam.jpg');
+}
+.angelina2{
+    background: url('assets/editing/angelina2.jpg');
+}
+.louann{
+    background: url('assets/editing/louann.jpg');
+}
+.marta{
+    background: url('assets/editing/marta.jpg');
+}
+.gabbyThomas{
+    background: url('assets/editing/gabbyThomas.jpg');
+}
+.dishaPatani{
+    background: url('assets/editing/dishaPatani.jpg');
+}
+.paulina{
+    background: url('assets/editing/paulina.jpg');
+}
+.nikitaGajjar{
+    background: url('assets/editing/nikitaGajjar.jpg');
+}
+.adriana{
+    background: url('assets/editing/adriana.jpg');
+}
+
 .modal{
+    
     backdrop-filter: blur(8px);
     background-color: rgba(0, 0, 0, 0.4) !important;
     display: flex;
@@ -167,6 +231,8 @@ background: url('assets/product/connect.jpg');
     
 }
 .CardContainer{
+    border-radius: 24px !important;
+    overflow: clip;
     transform: translate(15%,3%);
     display: flex;
     width: 80%;
@@ -199,6 +265,7 @@ background: url('assets/product/connect.jpg');
 }
 .toolsImages{
     display: flex;
+    padding-bottom:5% ;
 }
 .tools{
     margin:2% 2% 0% 0%;
@@ -214,6 +281,7 @@ background: url('assets/product/connect.jpg');
     font-weight: 600;
 }
 .imageLarge{
+    transform: scale(1.01);
     object-fit: cover;
     width: auto; /* width of container */
     height: 49vw; /* height of container */
@@ -240,7 +308,7 @@ background: url('assets/product/connect.jpg');
   background-size:100%;
   height: 15vw;
   width: 25vw;
-  margin:1.5%;
+  margin:3%;
   border-radius: 8px;
   transition: ease-in 300ms;
 }
@@ -254,22 +322,47 @@ background: url('assets/product/connect.jpg');
     width: 100%;
     justify-content: space-between !important;
 }
+.gotoPortfolio{
+    text-decoration: underline;
+    padding-top:1%;
+    color:rgba(0,0,0,0.6);
+    font-size: 1vw; 
+    
+}
+.gotoPortfolio:hover{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 400;
+}
 @media screen and (max-width: 550px) {
+    .gotoPortfolio{
+       
+        text-decoration: underline;
+        padding-left:2%;
+        color: #000000;
+        font-size: 4vw;
+    }
     .navbuttons{
         padding-left: 0%;
     }
     .sub{
         padding: 0% 5%;
     }
+    .headerText{
+        padding-left: 2%;
+    }
     .subHeader{
         padding-top: 45%;
         padding-bottom: 5% ;
+        
+    
     }
     .arrowBack{
         width: 8vw;
     }
     .definitionTitle{
         padding: 2%;
+        
         font-size: 5vw;
     }
     .definitionSub{
@@ -278,16 +371,15 @@ background: url('assets/product/connect.jpg');
         padding: 2%;
         font-size: 4vw;
     }
-    .productDef{
-        border-left: 2vw solid  #FF630B !important;
-    }
+    
     .processHeader,.gridTitle{
         font-family: 'Montserrat',sans-serif;
         padding: 5% 0%;
         font-size: 5vw;
         font-weight: 800 !important;
     }
-    .process{
+    
+    .grid,.process{
         grid-template-columns: auto;
     }
     .illustrationsContainer{
@@ -322,12 +414,15 @@ background: url('assets/product/connect.jpg');
         width: 90vw;
     }
     .CardContainer{
+        border-radius: 0% !important;
         flex-direction: column;
+        
     }
     .CardContainer{
         width:100%;
         transform: translate(0%,20%);
         bottom: 0;
+        
     }
     .imageLarge{
         height: 100vw;
@@ -348,13 +443,17 @@ background: url('assets/product/connect.jpg');
     .keywords{
         font-size: 3vw;
     }
+    .productDef{
+        border-left: 2vw solid  #6C3FEA !important;
+
+    }
 }
 .productDef{
-    background-color: #FFF8F4;
-    color:#DC5307;
-    border-left: 0.5vw solid  #FF630B;
+    background-color: #ede7ff;
+    color:#6C3FEA;
+    border-left: 0.5vw solid  #6C3FEA;
 }
 .product {
-    color: #B74303;
+    color: #6C3FEA;
 }
 

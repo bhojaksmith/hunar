@@ -56,3 +56,9 @@ function pitch(){
 function branding(){
   location.replace('branding.html')
 }
+function goTo4(){
+  window.scrollTo(300, 1300);
+}
+function goTo2(){
+  window.scrollTo(300, 1300);
+}

@@ -33,3 +33,26 @@ if(mediaQuery.matches){
   });
   
 }
+
+
+function uiux(){
+  location.replace('product.html')
+}
+function illustrations(){
+  location.replace('illustrations.html')
+}
+function photoediting(){
+  location.replace('photoediting.html')
+}
+function magazine(){
+  location.replace('magazine.html')
+}
+function motion(){
+  location.replace('motion.html')
+}
+function pitch(){
+  location.replace('pitch.html')
+}
+function branding(){
+  location.replace('branding.html')
+}

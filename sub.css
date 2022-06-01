@@ -218,7 +218,26 @@ background: url('assets/product/connect.jpg');
 .adriana{
     background: url('assets/editing/adriana.jpg');
 }
-
+.neofantasy{
+    background: url('assets/pitch/neofantasyPitchDeck.jpg');
+}
+.nextblock{
+    background: url('assets/pitch/NextBlockPitchDeck.jpg');
+}
+.betterbarter{
+    background: url('assets/pitch/BetterBarterPitchDeck.jpg');
+}
+.pitchDeck{
+    
+    background-position: center;
+    background-size:100%;
+    height: 14vw;
+    width: 23vw;
+    margin:1.5%;
+    border-radius: 8px;
+    transition: ease-in 300ms;
+    
+  }
 .modal{
     
     backdrop-filter: blur(8px);
@@ -315,7 +334,7 @@ background: url('assets/product/connect.jpg');
   border-radius: 8px;
   transition: ease-in 300ms;
 }
-.illustrations:hover,.innerCard:hover{
+.pitchDeck:hover,.illustrations:hover,.innerCard:hover{
   transform: scale(1.025);
   filter: brightness(110%);
   cursor: url('assets/pointer.svg'), auto;

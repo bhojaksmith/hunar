@@ -26,23 +26,23 @@ body{
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f7f7f7; 
+  background: #FFF8EA; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6C3FEA; 
+  background: #FDAE38; 
   border-radius: 8px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #4f2bb3; 
+  background: #DD9832; 
   cursor: url('assets/pointer.svg'), auto;
 }
 
@@ -263,8 +263,8 @@ padding: 2% 10% 2% 10%;
 
 }
 .testimonialsContent{
-background-color: #F2EAFF;
-color:#36008E;
+background-color: #FFF8EA;
+color:#DD9832;
 padding: 2% 5%;
 display: flex;
 flex-direction: column;
@@ -296,13 +296,13 @@ overflow: clip;
 }
 .carousel-indicators li{
 background-color: rgba(0,0,0,0);
-border: 1px solid #6C3FEA !important;
+border: 1px solid #DD9832 !important;
 }
 .carousel-indicators li:hover{
 cursor: url(assets/pointer.svg),auto !important;
 }
 .carousel-indicators .active{
-background-color: #6C3FEA !important;
+background-color: #DD9832 !important;
 }
 .form-control{
 border:none !important;

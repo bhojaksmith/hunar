@@ -466,12 +466,17 @@ background: url('assets/product/connect.jpg');
         
         
     }
-    .CardContainer{
-        width:100%;
-        transform: translate(0%,20%);
-        bottom: 0;
-        
+    .close{
+
     }
+    .CardContainer{
+        
+        width:100%;
+        transform: translate(0%,26%);
+        bottom: 100;
+
+    }
+
     .productContainer{
         
         width:100%;

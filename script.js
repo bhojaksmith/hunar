@@ -241,7 +241,7 @@ function setPaulina(){
 
 function setNikita(){
   $('.ContainerTitle').html("Nikkita Gajjar");
-  $('.ContainerSubtitle').html("");
+  $('.ContainerSubtitle').html("Wedding Album");
   document.querySelector('.imageLarge').setAttribute('src','assets/editing/large/nikitaGajjar.jpg') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
       loader.style.display = 'none'
@@ -283,7 +283,7 @@ function setBhumi2(){
 }
 function LisaMishra(){
   $('.ContainerTitle').html("Lisa Mishra");
-  $('.ContainerSubtitle').html("");
+  $('.ContainerSubtitle').html("Model");
   document.querySelector('.imageLarge').setAttribute('src','assets/illustrations/large/lisaMishra.jpg') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
       loader.style.display = 'none'
@@ -323,15 +323,15 @@ function GabyThomas_2(){
 }
 function SaharSaiyed(){
   $('.ContainerTitle').html("Sahar Saiyed");
-  $('.ContainerSubtitle').html("");
-  document.querySelector('.imageLarge').setAttribute('src','assets/illustrations/large/SaharSaiyed.jpgs') ;
+  $('.ContainerSubtitle').html("Fan Art");
+  document.querySelector('.imageLarge').setAttribute('src','assets/illustrations/large/SaharSaiyed.jpg') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
       loader.style.display = 'none'
   });
 }
 function SaharSaiyedRed(){
   $('.ContainerTitle').html("Sahar Saiyed");
-  $('.ContainerSubtitle').html("");
+  $('.ContainerSubtitle').html("Fan Art");
   document.querySelector('.imageLarge').setAttribute('src','assets/illustrations/large/SaharSaiyedRed.jpg') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
       loader.style.display = 'none'
@@ -339,7 +339,7 @@ function SaharSaiyedRed(){
 }
 function AnushkaSen(){
   $('.ContainerTitle').html("Anushka Sen");
-  $('.ContainerSubtitle').html("");
+  $('.ContainerSubtitle').html("Actor");
   document.querySelector('.imageLarge').setAttribute('src','assets/illustrations/large/AnushkaSen.jpg') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
   

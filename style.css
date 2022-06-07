@@ -185,7 +185,7 @@ body{
 .connectCTA{
   transition: 300ms ease-in;
   display: flex;
-  
+  cursor: url(/assets/pointer.svg),auto;
 }
 .arrow{
   
@@ -360,10 +360,9 @@ font-size: 1vw;
 }
 
 .connectCTA:hover{
-cursor: url(/assets/pointer.svg),auto;
+
 color: #000000;
 }
-
 .ourNumber a{
   color: black;
   

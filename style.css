@@ -3,7 +3,7 @@ img{
   pointer-events: none;
 }
 .navbuttons div:hover{
-  color:#000000
+  color:#000000;
 }
 
 body{
@@ -36,13 +36,15 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FDAE38; 
+  cursor: pointer;
+  background: #6C3FEA; 
   border-radius: 8px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #DD9832; 
+  cursor: pointer;
+  background: #512db3; 
   cursor: url('assets/pointer.svg'), auto;
 }
 
@@ -93,15 +95,16 @@ body{
  }
  
  .contact{
-      font-weight: 400;
-      color:white;
-      background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);   
+      font-weight: 600;
+      color:black;
+      
       border-radius: 24px;
-      transition: 300ms ease-in ;
+      transition: ease-in 300ms  ;
+      border:1px solid  black;
  }
  .contact:hover{
    cursor: url('assets/pointer.svg'),auto;
-   background: linear-gradient(89.96deg, #2d1966 0.85%, #8053FF 99.96%);    
+   background: black;
    color:#ffffff !important;
  }
  .contact:active{
@@ -118,7 +121,7 @@ body{
 
  }
  .navbuttons div{
-      
+      transition: ease-in 200ms;
       font-size: 0.75vw;
       margin-right: 1vw;
       padding:0.5vw  1vw ;
@@ -178,11 +181,13 @@ body{
   text-align: justify;
   margin:3% 0%;
   font-size: 1.1vw;
-  font-weight:400;
+  font-weight:500;
   color: rgba(0, 0, 0, 0.6);
 }
 
 .connectCTA{
+  width: 31%;
+  
   transition: 300ms ease-in;
   display: flex;
   cursor: url(/assets/pointer.svg),auto;
@@ -240,6 +245,7 @@ body{
   background: url('assets/cards/connect.png');
 }
 .innerCard{
+  filter: brightness(0.95);
   background-position: center;
   background-size:100%;
   height: 13vw;
@@ -247,12 +253,14 @@ body{
   margin:3%;
   border-radius: 8px;
   transition: ease-in 300ms;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2); 
 }
 .innerCard:hover{
+  
   transform: scale(1.025);
-  filter: brightness(110%);
+  filter: brightness(1.1);
   cursor: url('assets/pointer.svg'), auto;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.3); 
 }
 
 
@@ -263,8 +271,8 @@ padding: 2% 10% 2% 10%;
 
 }
 .testimonialsContent{
-background-color: #FFF8EA;
-color:#DD9832;
+  background-color: #F2EAFF;
+  color:#36008E;
 padding: 2% 5%;
 display: flex;
 flex-direction: column;
@@ -296,13 +304,13 @@ overflow: clip;
 }
 .carousel-indicators li{
 background-color: rgba(0,0,0,0);
-border: 1px solid #DD9832 !important;
+border: 1px solid #36008E !important;
 }
 .carousel-indicators li:hover{
-cursor: url(assets/pointer.svg),auto !important;
+cursor: pointer;
 }
 .carousel-indicators .active{
-background-color: #DD9832 !important;
+background-color: #36008E !important;
 }
 .form-control{
 border:none !important;
@@ -354,9 +362,11 @@ font-size: 1vw;
 padding-top: 2%;
 font-size: 1vw;
 }
+.connectCTA .arrow{
+  transition: ease-in 200ms;
+}
 .connectCTA:hover .arrow{
-  transform: translateX(5px);
-  
+  transform: translateX(5px)
 }
 
 .connectCTA:hover{
@@ -370,39 +380,42 @@ color: #000000;
 .us:hover .ourPhoto{
 transform: scale(1.02);
 }
-.one,.two,.three,.four{
-  z-index: -1;
-  position: absolute;
-}
-.two,.four{
-  right:0;
-  transform: rotate(180deg);
-}
-.one{
-   margin-top: 41%;
-}
-.two{
-  margin-top: 30%;
-}
-.three{
-  margin-top: 96%;
-  transform: rotate(270deg);
-}
+
 .schedule{
   margin-top: 5%;
   padding: 2%;
   font-weight: 600;
   font-family: 'Montserrat',sans-serif;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 24px;
   color: black;
   border: 1px solid black;
   transition: 300ms ease-in;
+  text-align: center;
 }
 .schedule:hover{
   color: white;
   background: black;
   text-decoration: none !important;
+}
+.modal{
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4) !important;
+
+}
+.opensource{
+  transition: ease-in 200ms;
+  color: inherit;
+  text-decoration: underline;
+}
+.opensource:hover{
+  cursor: url(assets/pointer.svg), auto;
+  color: #36008E;
+
+}
+.connectCTA:active,.opensource:active{
+  transform: scale(0.95);
+
 }
 @media screen and (min-width: 1440px) {
    
@@ -439,6 +452,10 @@ transform: scale(1.02);
     }
     .navbuttons .active{
       color:black  !important;
+    }
+    .about:hover{
+      cursor: url('assets/pointer.svg'), auto;
+
     }
     
     .contact{

@@ -253,7 +253,6 @@ body{
   margin:3%;
   border-radius: 8px;
   transition: ease-in 300ms;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2); 
 }
 .innerCard:hover{
   
@@ -430,7 +429,9 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 550px) {
-
+  .connectCTA{
+    width: 50%;
+  }
   .navBarContainer{
       flex-direction: column;
       align-items: center;
@@ -494,12 +495,13 @@ transform: scale(1.02);
       font-family: 'Montserrat', sans-serif !important;
       text-align: left;
       font-size: 8vw !important;
+      font-weight: 900;
    }
    .title2{
-     
-      text-align: left;
-      font-size: 8vw !important;
-      line-height: 100%;
+     text-align: left;
+     font-size: 8vw !important;
+     line-height: 100%;
+     font-weight: 900;
    }
    .header{
        font-size: 4vw;

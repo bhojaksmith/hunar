@@ -55,7 +55,23 @@ a{
 .processHeader,.gridTitle{
     font-size: 1.5vw;
     margin-bottom: 1%;
+    padding-bottom: 1%;
     font-weight: 600;
+    position: relative;
+    
+}
+.processHeader::before,.gridTitle::before{
+    
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 5%;
+        left: 0%;
+        border-bottom: 8px solid #6C3FEA;
+        border-radius: 24px;
+        
+
 }
 .process{
     display: grid;
@@ -267,12 +283,14 @@ background: url('assets/product/connect.jpg');
 .CardContainer{
     border-radius: 24px !important;
     overflow: clip;
-    transform: translate(15%,3%);
+    transform: translate(15%,5%);
     display: flex;
     width: 80%;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
 }
 .ContainerCard{
-    background-color: #000000;
+    
     color: #ffffff;
     padding: 2%;
     width: 50%;
@@ -319,7 +337,7 @@ background: url('assets/product/connect.jpg');
 }
 .imageLarge{
     
-    transform: scale(1.01);
+    transform: scale(1.02);
     object-fit: cover;
     width: auto; /* width of container */
     height: 49vw; /* height of container */
@@ -374,6 +392,24 @@ background: url('assets/product/connect.jpg');
     font-weight: 400;
 }
 @media screen and (max-width: 550px) {
+    .processHeader,.gridTitle{
+        padding-bottom: 1%;
+        margin-bottom: 5%;
+    }
+    
+    .processHeader::before,.gridTitle::before{
+    
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 15%;
+        left: 0%;
+        border-bottom: 8px solid #6C3FEA;
+        border-radius: 24px;
+        
+
+}
     .toolIcon{
         width: 14vw;
     }
@@ -402,6 +438,7 @@ background: url('assets/product/connect.jpg');
     .arrowBack{
         width: 8vw;
     }
+    
     .definitionTitle{
         padding: 2%;
         
@@ -415,6 +452,7 @@ background: url('assets/product/connect.jpg');
     }
     
     .processHeader,.gridTitle{
+            
         font-family: 'Montserrat',sans-serif;
         padding: 5% 0%;
         font-size: 5vw;
@@ -424,14 +462,17 @@ background: url('assets/product/connect.jpg');
     .illustrationsContainer,.pitchContainer,.grid,.process{
         grid-template-columns: auto;
     }
+    .illustrationsContainer{
+        grid-template-columns: auto auto;
+    }
     .pitchDeck{
         animation: slideUp 300ms ease-in;
         width: 90vw;
         height: 48vw;
     }
     .illustrations{
-        width: 88vw;
-        height: 88vw;
+        width: 44vw;
+        height: 44vw;
     }
     .processicon{
         width: 10vw;
@@ -457,15 +498,11 @@ background: url('assets/product/connect.jpg');
         height: 55vw;
         width: 90vw;
     }
+
+    
     .CardContainer{
         border-radius: 0% !important;
         flex-direction: column;
-        
-        
-    }
-    
-    .CardContainer{
-        
         width:100%;
         transform: translate(0%,26%);
         bottom: 100;

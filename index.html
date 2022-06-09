@@ -78,7 +78,7 @@
                   <div class="innerCard motion" onclick="motion()"></div>
                   <div class="innerCard pitch" onclick="pitch()"></div>
                   <div class="innerCard branding" onclick="branding()"></div>
-                  <div class="innerCard consultancy" onclick="consultancy()"></div>
+                  <div class="innerCard consultancy" data-toggle="modal" data-target="#consultancy"></div>
                   <div class="innerCard connect" data-toggle="modal" data-target="#modalContactForm"></div>
                </div>
             </div>
@@ -160,7 +160,46 @@
              </div>
          </div>
          
-         
+         <div class="modal fade" id="consultancy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header text-center">
+               
+                  
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+               </button>
+               <div class="ConsultancyTitle">
+                  Just need some consultancy from us?
+               </div>
+               <div class="ConsultancyText">
+                  Get the best of our expertise on your projects with most affordable pricing !
+               </div>
+               <div class="smithbhavin">
+                  <div class="profile">
+                        <div class="smith us">
+                           <div class="profilePhoto"><img class="ourPhoto" src="assets/smith.png"></div>
+                           <div class="ourName">Smith Bhojak</div>
+                           <div class="ourNumber"><a href="tel:+919925315681">+91 9925315681</a></div></div>
+                        </div>
+                        <div class="bhavin us">
+                           <div class="profilePhoto"><img class="ourPhoto" src="assets/bhavin.png"></div>
+                           <div class="ourName">Bhavin Panchasara</div>
+                           <div class="ourNumber" ><a href="tel:+918849918846">+91 8849918846</a></div>
+                        </div>
+                  </div>
+               <div>
+                  <a href="mailto:contact@hunardesignstudios.in" target="_blank" class="mailID">contact@hunardesignstudios.in</a>
+               </div>
+               <!-- Calendly link widget begin -->
+               <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/bhojaksmith?text_color=202020&primary_color=6C3FEA'});return false;" style="text-decoration: none !important"><div class="schedule">SCHEDULE A CALL </div></a>
+               <!-- Calendly link widget end -->
+               </div>
+            </div>
+         </div>
+      </div>
+
          <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
          aria-hidden="true">
          <div class="modal-dialog" role="document">

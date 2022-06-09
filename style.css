@@ -5,7 +5,16 @@ img{
 .navbuttons div:hover{
   color:#000000;
 }
-
+.ConsultancyTitle{
+  font-size: 2vw;
+  font-weight: 800;
+}
+.ConsultancyText{
+  font-size: 1vw;
+  font-weight: 500;
+  padding-bottom: 5%;
+  color: rgba(0, 0, 0, .6);
+}
 body{
   overflow-x: clip;
   overflow-x: hidden;
@@ -476,10 +485,7 @@ transform: scale(1.02);
   .services{
     padding: 0 5%;
   }
-  .pitchDeck{
-    width: 29vw !important;
-    height: 17vw !important;
-  }
+  
   .innerCard{
     width: 28vw;
     height: 14vw;
@@ -512,10 +518,6 @@ transform: scale(1.02);
   .services{
     padding: 0 5%;
   }
-  .pitchDeck{
-    width: 29vw !important;
-    height: 17vw !important;
-  }  
   .innerCard{
     width: 28vw;
     height: 14vw;
@@ -529,6 +531,14 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 550px) {
+  .ConsultancyTitle{
+    font-size: 8vw;
+    font-weight: 800;
+  }
+  .ConsultancyText{
+    font-size: 4vw;
+    font-weight: 500;
+  }
   .aboutImageMain{
     background-position: center;
     background-size:100%;

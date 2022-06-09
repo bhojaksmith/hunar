@@ -272,6 +272,9 @@ body{
   width: 12vw;
   padding-bottom: 5%;
 }
+.mission{
+  width: 15vw;
+}
 .aboutCardDescription{
   font-size: 1vw;
   font-weight: 500;  
@@ -471,6 +474,9 @@ transform: scale(1.02);
   }
   .aboutImageOther{
     width: 35vw;
+  }
+  .mission{
+    width: 42vw;
   }
   .aboutCardDescription{
     font-size: 4vw;

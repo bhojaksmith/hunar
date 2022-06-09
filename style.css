@@ -244,6 +244,39 @@ body{
 .connect{
   background: url('assets/cards/connect.png');
 }
+.aboutContent{
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutImageMain{
+  background-image: url("assets/about.jpg");
+  width: 100vw;
+  height: 35vw;
+}
+.aboutCardsContainer{
+  display: flex;
+  width: 82%;  
+  text-align: justify;
+  padding: 1%;
+}
+.aboutCard{
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2%;
+  margin-right: 2%;
+  
+}
+.aboutImageOther{
+  width: 12vw;
+  padding-bottom: 5%;
+}
+.aboutCardDescription{
+  font-size: 1vw;
+  font-weight: 500;  
+  color:rgba(0, 0, 0, .6)
+}
 .innerCard{
   filter: brightness(0.95);
   background-position: center;
@@ -429,6 +462,39 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 550px) {
+  .aboutImageMain{
+    background-image: url("assets/aboutMobile.jpg");
+    width: 100vw;
+    height: 51vw;    
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+  .aboutImageOther{
+    width: 35vw;
+  }
+  .aboutCardDescription{
+    font-size: 4vw;
+    
+    height: min-content;
+  }
+  
+  .aboutCard{
+    padding: 4%;
+    width: 95% !important;
+    margin: 2%;
+  }
+  .aboutCardsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 100vw;
+  }
+  .aboutCard{
+    width: 100vw;
+  }
+  .aboutContent{
+    padding-top: 34%;
+  }
   .connectCTA{
     width: 50%;
   }
@@ -455,7 +521,7 @@ transform: scale(1.02);
       color:black  !important;
     }
     .about:hover{
-      cursor: url('assets/pointer.svg'), auto;
+      cursor:pointer;
 
     }
     
@@ -465,12 +531,13 @@ transform: scale(1.02);
       background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
     }
     .navbuttons div{
-    
+  
      font-size: 3.5vw;
      margin-right: 1vw !important;
      padding: 2% 4% 2% ;
      
     }
+    
      .logo {
        width: 40vw;
      }

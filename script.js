@@ -17,7 +17,17 @@ function run(){
     
     }
 
-  
+    $(document).ready(function() {
+      $('.about').click(function() {
+        location.replace('about.html')
+      });
+  });
+  $(document).ready(function() {
+    $('.home').click(function() {
+      location.replace('index.html')
+    });
+});
+
 
 
 function uiux(){

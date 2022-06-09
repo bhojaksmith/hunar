@@ -29,6 +29,11 @@ function run(){
 });
 
 
+$(document).ready(function() {
+  $('.navBarLogo').click(function() {
+    location.replace('index.html')
+  });
+});
 
 function uiux(){
   location.replace('product.html')

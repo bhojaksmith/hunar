@@ -245,15 +245,19 @@ body{
   background: url('assets/cards/connect.png');
 }
 .aboutContent{
+  animation: slideUp 500ms ease-in-out;
   padding-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .aboutImageMain{
+  background-position: center;
+  background-size:100%;
   background-image: url("assets/about.jpg");
   width: 100vw;
   height: 35vw;
+  
 }
 .aboutCardsContainer{
   display: flex;
@@ -453,19 +457,81 @@ transform: scale(1.02);
 
 }
 @media screen and (min-width: 1440px) {
-   
-}
-
-@media screen and (min-width: 1920px) {
-
+  .navBarContainer{
+    padding: 1% 0% 1% 5%;
+  }
+  .navbuttons{
+    margin-right:5%
+  }
+  .heroContent{
+    padding-left: 0%;
+    width: 100%;
+  }
+  .title1,.title2{
+    font-size: 4vw !important;
+  }
+  .header{
+    font-size: 1.3vw;
+  }
+  .services{
+    padding: 0 5%;
+  }
+  .pitchDeck{
+    width: 29vw !important;
+    height: 17vw !important;
+  }
+  .innerCard{
+    width: 28vw;
+    height: 14vw;
+  }
+  .testimonials{
+    padding:2% 5%;
+  }
+  .aboutCardsContainer{
+    width: 95vw;
+  }
 }
 
 @media screen and (max-width: 991px) {
-
+  .navBarContainer{
+    padding: 1% 0% 1% 5%;
+  }
+  .navbuttons{
+    margin-right:5%
+  }
+  .heroContent{
+    padding-left: 0%;
+    width: 100%;
+  }
+  .title1,.title2{
+    font-size: 4vw !important;
+  }
+  .header{
+    font-size: 1.3vw;
+  }
+  .services{
+    padding: 0 5%;
+  }
+  .pitchDeck{
+    width: 29vw !important;
+    height: 17vw !important;
+  }  
+  .innerCard{
+    width: 28vw;
+    height: 14vw;
+  }
+  .testimonials{
+    padding:2% 5%;
+  }
+  .aboutCardsContainer{
+    width: 95vw;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .aboutImageMain{
+    background-position: center;
+    background-size:100%;
     background-image: url("assets/aboutMobile.jpg");
     width: 100vw;
     height: 51vw;    

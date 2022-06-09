@@ -391,6 +391,44 @@ background: url('assets/product/connect.jpg');
     color:#000000;
     font-weight: 400;
 }
+@media screen and (min-width: 1440px){
+    .sub{
+        padding: 0% 5%;
+    }
+    .innerCard{
+        width: 28vw;
+        height: 17.5vw;
+    }
+    .illustrations{
+        height: 21.5vw;
+        width: 21.5vw;
+    }
+    .pitchDeck{
+        width: 29vw ;
+        height: 17vw ;
+      }
+}
+@media screen and (max-width: 991px){
+    .sub{
+        padding: 0% 5%;
+    }
+    .innerCard{
+        width: 28vw;
+        height: 17.5vw;
+    }
+    .illustrations{
+        height: 21.5vw;
+        width: 21.5vw;
+    }
+    .pitchDeck{
+        width: 29vw ;
+        height: 17vw ;
+      }
+    .processHeader::before,.gridTitle::before{
+        border-bottom: 3px solid #6C3FEA;
+        border-radius: 24px;
+    }
+}
 @media screen and (max-width: 550px) {
     .processHeader,.gridTitle{
         padding-bottom: 1%;

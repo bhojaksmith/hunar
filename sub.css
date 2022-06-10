@@ -1,5 +1,5 @@
 body{
-    background-color: #F4F4FF !important;
+    background-color: #F4F4FF !important;    
 }
 a{
     
@@ -18,7 +18,7 @@ a{
     
 }
 .headerText{
-    
+    font-weight: 600;
     font-size: 2vw;
     padding-left: 1%;
 }
@@ -28,14 +28,11 @@ a{
     cursor: url('assets/cursor.svg'),auto;
 }
 .arrowBack{
-    width: 2vw;
+    width: 1.5vw;
     transform: rotate(180deg);
 }
 .arrowBack:hover{
     cursor: url("assets/pointer.svg"),auto;
-}
-.headerText{
-    font-size: 2vw;
 }
 .definition {
     border-radius: 0px;
@@ -391,7 +388,8 @@ background: url('assets/product/connect.jpg');
     color:#000000;
     font-weight: 400;
 }
-@media screen and (min-width: 1440px){
+
+@media screen and (max-width: 1440px){
     .sub{
         padding: 0% 5%;
     }
@@ -412,9 +410,31 @@ background: url('assets/product/connect.jpg');
     .sub{
         padding: 0% 5%;
     }
+    .grid{
+        grid-template-columns: auto auto;
+    }
+    .headerText{
+        font-size: 3vw;
+        font-weight: 500 ;
+    }
+    .definitionTitle{
+        font-size: 2vw;
+    }
+    .gotoPortfolio,.definitionSub{
+        font-size: 1.6vw;
+    }
+    .processHeader,.gridTitle{
+        font-size: 1.6vw;
+    }
+    .processTitle{
+        font-size: 1.5vw;
+    }
+    .processText{
+        font-size: 1.5vw;
+    }
     .innerCard{
-        width: 28vw;
-        height: 17.5vw;
+        width: 42vw;
+        height: 25vw;
     }
     .illustrations{
         height: 21.5vw;
@@ -464,9 +484,6 @@ background: url('assets/product/connect.jpg');
     .sub{
         padding: 0% 5%;
     }
-    .headerText{
-        padding-left: 2%;
-    }
     .subHeader{
         padding-top: 45%;
         padding-bottom: 5% ;
@@ -474,7 +491,7 @@ background: url('assets/product/connect.jpg');
     
     }
     .arrowBack{
-        width: 8vw;
+        width: 6vw;
     }
     
     .definitionTitle{
@@ -524,7 +541,9 @@ background: url('assets/product/connect.jpg');
         text-align: justify;
     }
     .headerText{
-        font-size: 8vw;
+        font-size: 6vw;
+        font-weight: 800 ;
+        padding-left: 2%;
     }
 
     .nda{

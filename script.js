@@ -56,9 +56,6 @@ function pitch(){
 function branding(){
   location.replace('branding.html')
 }
-function consultancy(){
-  
-}
 
 function setStellars(){
   document.querySelector('.productLarge').setAttribute('src','assets/caseStudies/Stellars School Case Study.png') ;

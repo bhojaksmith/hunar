@@ -1,9 +1,12 @@
-
 img{
   pointer-events: none;
 }
 .navbuttons div:hover{
   color:#000000;
+  cursor: url('assets/pointer.svg'),auto;
+}
+.navBarLogo{
+  cursor: url('assets/pointer.svg'),auto;
 }
 .ConsultancyTitle{
   font-size: 2vw;
@@ -210,6 +213,7 @@ body{
 .burgerIcon {
   display: none;
 }
+
 .services{
   padding: 0% 10% ;
   animation: slideUp 500ms ease-in-out;
@@ -265,8 +269,13 @@ body{
   background-size:100%;
   background-image: url("assets/about.jpg");
   width: 100vw;
-  height: 35vw;
+  height: 48vw;
+  /* border: 1px solid; */
   
+}
+.aboutCardsContainer{
+  position: absolute;
+  padding-top: 39% !important;
 }
 .aboutCardsContainer{
   display: flex;
@@ -275,7 +284,8 @@ body{
   padding: 1%;
 }
 .aboutCard{
-  background: #ffffff;
+  background: rgba(255, 255, 255, .8);
+  backdrop-filter: blur(8px);
   border-radius: 16px;
   padding: 2%;
   margin-right: 2%;
@@ -286,7 +296,7 @@ body{
   padding-bottom: 5%;
 }
 .mission{
-  width: 15vw;
+  width: 14vw;
 }
 .aboutCardDescription{
   font-size: 1vw;
@@ -306,7 +316,7 @@ body{
 .innerCard:hover{
   
   transform: scale(1.025);
-  filter: brightness(1.1);
+  filter: brightness(1.025);
   cursor: url('assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.3); 
 }
@@ -463,9 +473,9 @@ transform: scale(1.02);
 }
 .connectCTA:active,.opensource:active{
   transform: scale(0.95);
-
 }
-@media screen and (min-width: 1440px) {
+
+@media screen and (max-width: 1440px) {
   .navBarContainer{
     padding: 1% 0% 1% 5%;
   }
@@ -499,6 +509,19 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 991px) {
+
+  .navbuttons div{
+    font-size: 1.5vw;
+  }
+  .connectCTA{
+    width: 40%;
+  }
+  .heroImage{
+    width:45vw
+  }
+  .logo{
+    width: 15vw;
+  }
   .navBarContainer{
     padding: 1% 0% 1% 5%;
   }
@@ -510,29 +533,58 @@ transform: scale(1.02);
     width: 100%;
   }
   .title1,.title2{
-    font-size: 4vw !important;
+    font-size: 4.4vw !important;
   }
   .header{
-    font-size: 1.3vw;
+    font-size: 1.8vw;
   }
   .services{
     padding: 0 5%;
   }
+  .cards{
+    grid-template-columns: auto auto;
+  }
   .innerCard{
-    width: 28vw;
-    height: 14vw;
+    width: 42vw;
+    height: 22vw;
   }
   .testimonials{
     padding:2% 5%;
   }
+  .testimonialsText{
+    font-size: 2vw;
+  }
+  .testimonialsPerson{
+    font-size: 1.6vw;
+  }
   .aboutCardsContainer{
     width: 95vw;
   }
+  .ConsultancyTitle{
+    font-size: 4vw;
+  }
+  .ConsultancyText{
+    font-size: 2vw;
+  }
+  .ourPhoto{
+    width: 25vw;
+  }
+  .ourName{
+    font-size: 2vw;
+  }
+  .ourNumber{
+    font-size: 1.6vw;
+  }
+  .ourMail{
+    padding-top: 5%;
+    font-size: 1.6vw;
+  }
+  
 }
 
 @media screen and (max-width: 550px) {
   .ConsultancyTitle{
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 800;
   }
   .ConsultancyText{
@@ -637,7 +689,7 @@ transform: scale(1.02);
    }
    .heroText{
       
-       width: 100%;
+       width: 90%;
    }
   
    .title1{

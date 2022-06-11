@@ -274,14 +274,13 @@ body{
   
 }
 .aboutCardsContainer{
-  position: absolute;
-  padding-top: 39% !important;
-}
-.aboutCardsContainer{
+
   display: flex;
   width: 82%;  
   text-align: justify;
   padding: 1%;
+  position: absolute;
+  padding-top: 39% !important;
 }
 .aboutCard{
   background: rgba(255, 255, 255, .8);
@@ -596,7 +595,8 @@ transform: scale(1.02);
     background-size:100%;
     background-image: url("assets/aboutMobile.jpg");
     width: 100vw;
-    height: 51vw;    
+    /* border: 1px solid; */
+    height: 65vw;    
     background-size: 100vw;
     background-repeat: no-repeat;
   }
@@ -607,8 +607,7 @@ transform: scale(1.02);
     width: 42vw;
   }
   .aboutCardDescription{
-    font-size: 4vw;
-    
+    font-size: 4vw;    
     height: min-content;
   }
   
@@ -618,9 +617,12 @@ transform: scale(1.02);
     margin: 2%;
   }
   .aboutCardsContainer{
+    
+    overflow: clip;
     display: flex;
     flex-direction: column;
     padding: 2%;
+    padding-top:55% !important;
     width: 100vw;
   }
   .aboutCard{

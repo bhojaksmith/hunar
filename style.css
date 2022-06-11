@@ -267,6 +267,7 @@ body{
 .aboutImageMain{
   background-position: center;
   background-size:100%;
+  position: fixed !important;
   background-image: url("assets/about.jpg");
   width: 100vw;
   height: 48vw;
@@ -274,7 +275,7 @@ body{
   
 }
 .aboutCardsContainer{
-
+  animation: slideUp 1000ms ease-in-out;
   display: flex;
   width: 82%;  
   text-align: justify;
@@ -303,6 +304,7 @@ body{
   color:rgba(0, 0, 0, .6)
 }
 .innerCard{
+  animation: slideUp 1000ms ease-in-out;
   filter: brightness(0.95);
   background-position: center;
   background-size:100%;
@@ -595,7 +597,7 @@ transform: scale(1.02);
     background-size:100%;
     background-image: url("assets/aboutMobile.jpg");
     width: 100vw;
-    /* border: 1px solid; */
+    position: relative !important;
     height: 65vw;    
     background-size: 100vw;
     background-repeat: no-repeat;

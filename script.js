@@ -369,3 +369,31 @@ function ShipraKhanna(){
   
   });
 }
+
+function setBdesigner(){
+  document.querySelector('.productLarge').setAttribute('src','assets/branding/BdesignerBranding.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+      loader.style.display = 'none'
+  });
+}
+
+function setMeraki(){
+  document.querySelector('.productLarge').setAttribute('src','assets/branding/MerakiBranding.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+      loader.style.display = 'none'
+  });
+}
+function setMS(){
+  document.querySelector('.productLarge').setAttribute('src','assets/branding/MSBranding.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+      loader.style.display = 'none'
+  });
+}
+
+function setLohana(){
+  document.querySelector('.productLarge').setAttribute('src','assets/branding/LohanaBranding.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+      loader.style.display = 'none'
+  });
+}
+

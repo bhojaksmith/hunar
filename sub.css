@@ -242,6 +242,19 @@ background: url('assets/product/connect.jpg');
 .betterbarter{
     background: url('assets/pitch/BetterBarterPitchDeck.jpg');
 }
+.bdesigner{
+    background: url('assets/branding/bdesigner.png');
+}
+.meraki{
+    background: url('assets/branding/meraki.png');
+}
+.ms{
+    background: url('assets/branding/ms.png');
+}
+.lohana{
+    background: url('assets/branding/lohana.png');
+    
+}
 .pitchDeck{
     
     background-position: center;

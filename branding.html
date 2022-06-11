@@ -38,13 +38,16 @@
             </div>
             <div class="definition productDef">
                 <div class="definitionTitle productTitle">
-                    What is Product Design?
+                    What is Branding & Merchandising Design?
                 </div>
                 <div class="definitionSub productSub">
-                    A Process of creating a product for the right target users by understanding their needs and identifying pain points to provide great user experiences that solves their problems
+                    Branding & Merchandising Design is the process of creating a strong, positive perception of a company, its products or services.
+                </div>
+                <div class="gotoPortfolio">
+                    <a href="#portfolio"><i>Go to portfolio</i></a>
                 </div>
             </div>
-            <div class="processHeader">Our Product Design Process</div>
+            <div class="processHeader">Our Branding & Merchandising Design Process</div>
             <div class="process">
                 <div class="processGrid">
                     <img src="assets/sub/meet.svg" class="processicon">
@@ -54,27 +57,34 @@
                 <div class="processGrid">
                     <img src="assets/sub/roadmap.svg" class="processicon">
                     <div class="processTitle">#2 Roadmap Planning</div>
-                    <div class="processText">We set up a meeting with you that helps us get to know each other, understand our goals and define a way for us to work together.</div>
+                    <div class="processText" id="portfolio">We create a roadmap or structure of design phase and share it with you letting you know which of following phase will take
+                        how long and understand and confirm the compensation as well .</div>
                 </div>
-                <div class="processGrid">
-                    <img src="assets/sub/design.svg" class="processicon">
-                    <div class="processTitle">#3 Design, Prototype, Iterate</div>
-                    <div class="processText">We set up a meeting with you that helps us get to know each other, understand our goals and define a way for us to work together.</div>
-                </div>
-                <div class="processGrid">
-                    <img src="assets/sub/testing.svg" class="processicon">
-                    <div class="processTitle">#4 Testing & Support</div>
-                    <div class="processText">We set up a meeting with you that helps us get to know each other, understand our goals and define a way for us to work together.</div>
-                </div>
+                
             </div>
             <div class="gridContainer">
-                <div class="gridTitle">Our Product Design Portfolio</div>
+                <div class="gridTitle">Our Branding & Merchandise Portfolio</div>
                 <div class="grid">
-                    
+                    <div class="innerCard bdesigner" data-toggle="modal" data-target="#caseStudy"  onclick="setBdesigner()"></div>
+                    <div class="innerCard meraki" data-toggle="modal" data-target="#caseStudy"  onclick="setMeraki()"></div>
+                    <div class="innerCard ms" data-toggle="modal" data-target="#caseStudy"  onclick="setMS()"></div>
+                    <div class="innerCard lohana" data-toggle="modal" data-target="#caseStudy"  onclick="setLohana()"></div>
                 </div>
             </div>
         </div>
-          
+           <!-- Image Large Starts-->  
+           <div class="modal fade" id="caseStudy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+           aria-hidden="true">
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  Close  
+                  <span aria-hidden="true">&times;</span>
+                 </button>
+                 <div class="productContainer">
+                     
+                      <img src="" class="productLarge" loading="lazy">
+              </div>
+           </div>  
+      <!-- Image Large Ends-->
     <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
          aria-hidden="true">
          <div class="modal-dialog" role="document">
@@ -123,4 +133,7 @@
    </body>
 </html>
 <style>
+    .innerCard{
+        filter: brightness(105%);
+    }
 </style>

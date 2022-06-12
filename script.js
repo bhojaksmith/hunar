@@ -398,3 +398,15 @@ function setLohana(){
 
 }
 
+function setlfa16(){
+  document.querySelector('.productLarge').setAttribute('src','assets/magazine/lfa16Detail.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+
+function setlfa17(){
+  document.querySelector('.productLarge').setAttribute('src','assets/magazine/lfa17Detail.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+

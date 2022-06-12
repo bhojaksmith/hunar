@@ -255,6 +255,18 @@ background: url('assets/product/connect.jpg');
     background: url('assets/branding/lohana.png');
     
 }
+.lfa17{
+    background: url('assets/magazine/lfa17.png');
+}
+.lfa16{
+    background: url('assets/magazine/lfa16.png');
+}
+.barVideo{
+    background: url('assets/motion/bar.png');
+}
+.bdesignerBOX{
+    background: url('assets/motion/bdesignerBOX.png');
+}
 .pitchDeck{
     
     background-position: center;
@@ -280,6 +292,12 @@ background: url('assets/product/connect.jpg');
 }
 .productContainer{
     transform: translate(40%,1%);
+    width: fit-content;
+    border-radius: 24px;
+    overflow: clip;
+}
+.videoContainer{
+    transform: translate(120%,1%);
     width: fit-content;
     border-radius: 24px;
     overflow: clip;
@@ -378,7 +396,9 @@ background: url('assets/product/connect.jpg');
   margin:3%;
   border-radius: 8px;
   transition: ease-in 300ms;
+  
 }
+
 .pitchDeck:hover,.illustrations:hover,.innerCard:hover{
   transform: scale(1.025);
   filter: brightness(110%);
@@ -401,8 +421,14 @@ background: url('assets/product/connect.jpg');
     color:#000000;
     font-weight: 400;
 }
+.lfa17,.lfa16{
+    height: 17vw;
+}
 
 @media screen and (max-width: 1440px){
+    .lfa17,.lfa16{
+        height: 17vw;
+    }
     .sub{
         padding: 0% 5%;
     }
@@ -564,7 +590,8 @@ background: url('assets/product/connect.jpg');
         margin: 1% !important;
         
     }
-    .innerCard{
+
+    .lfa17,.lfa16,.innerCard{
         height: 55vw;
         width: 90vw;
     }
@@ -582,9 +609,14 @@ background: url('assets/product/connect.jpg');
     .productContainer{
         
         width:100%;
-        transform: translate(0%,1%);
+        transform: translate(0%,2%);
         bottom: 0;
         
+    }
+    .videoContainer{
+        width:100%;
+        transform: translate(0%,2%);
+        bottom: 0;
     }
     .productLarge,.imageLarge{
         height: auto;

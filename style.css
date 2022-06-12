@@ -582,6 +582,9 @@ transform: scale(1.02);
   }
   
 }
+.hideme{
+  pointer-events: none;
+}
 
 @media screen and (max-width: 550px) {
   .ConsultancyTitle{
@@ -722,6 +725,7 @@ transform: scale(1.02);
       font-size:6vw  !important;
       padding: 5% 0%;
   }
+  
   .innerCard{
       height: 45vw;
       width: 90vw;

@@ -458,7 +458,6 @@ transform: scale(1.02);
   text-decoration: none !important;
 }
 .modal{
-  backdrop-filter: blur(8px);
   background-color: rgba(0, 0, 0, 0.4) !important;
 
 }
@@ -502,7 +501,8 @@ transform: scale(1.02);
     height: 14vw;
   }
   .testimonials{
-    padding:2% 5%;
+    padding:5% 5%;
+
   }
   .aboutCardsContainer{
     width: 95vw;
@@ -550,7 +550,7 @@ transform: scale(1.02);
     height: 22vw;
   }
   .testimonials{
-    padding:2% 5%;
+    padding:5% 5%
   }
   .testimonialsText{
     font-size: 2vw;

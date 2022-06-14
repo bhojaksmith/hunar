@@ -280,8 +280,8 @@ background: url('assets/product/connect.jpg');
     
   }
 .modal{
-    animation: slideUp 300ms ease-in;
-    backdrop-filter: blur(8px);
+    /* backdrop-filter: blur(8px); */
+    animation: fadeIn 300ms ease-in;
     background-color: rgba(0, 0, 0, 0.4) !important;
     display: flex;
     justify-content: space-between;
@@ -292,8 +292,8 @@ background: url('assets/product/connect.jpg');
 }
 .productContainer{
     transform: translate(40%,1%);
-    width: fit-content;
     border-radius: 24px;
+    width: fit-content;
     overflow: clip;
 }
 .videoContainer{
@@ -309,19 +309,22 @@ background: url('assets/product/connect.jpg');
 
 }
 .CardContainer{
+
     border-radius: 24px !important;
     overflow: clip;
-    transform: translate(15%,5%);
+    transform: translate(15%,2%);
     display: flex;
     width: 80%;
     background-color: rgba(255,255,255,0.2);
-    backdrop-filter: blur(8px);
+    
 }
 .ContainerCard{
     
     color: #ffffff;
     padding: 2%;
     width: 50%;
+    backdrop-filter: blur(48px) !important;
+
     
 }
 .keywordTitle,.toolsTitle{
@@ -487,8 +490,14 @@ background: url('assets/product/connect.jpg');
         border-bottom: 3px solid #6C3FEA;
         border-radius: 24px;
     }
+    .ContainerCard{
+        padding: 5%;
+    }
 }
 @media screen and (max-width: 550px) {
+    .ContainerCard{
+        padding: 5%;
+    }
     .processHeader,.gridTitle{
         padding-bottom: 1%;
         margin-bottom: 5%;
@@ -600,15 +609,16 @@ background: url('assets/product/connect.jpg');
     .CardContainer{
         border-radius: 0% !important;
         flex-direction: column;
-        width:100%;
-        transform: translate(0%,26%);
+        width:95%;
+        transform: translate(2.5%,5%);
         bottom: 100;
 
     }
 
     .productContainer{
-        
+        border-radius: 0% !important;
         width:100%;
+        padding-bottom:5%;
         transform: translate(0%,2%);
         bottom: 0;
         

@@ -135,6 +135,7 @@ body{
 
  }
  .navbuttons div{
+  letter-spacing: 20%;
       transition: ease-in 200ms;
       font-size: 0.75vw;
       margin-right: 1vw;
@@ -677,7 +678,7 @@ transform: scale(1.02);
       background: linear-gradient(89.96deg, #4829A0 0.85%, #8053FF 99.96%);
     }
     .navbuttons div{
-  
+      
      font-size: 3.5vw;
      margin-right: 1vw !important;
      padding: 2% 4% 2% ;

@@ -36,14 +36,16 @@ $.get("navigation.html", function(data){
 });
   $(document).ready(function() {
     $('.home').click(function() {
-      location.replace('/')
+      window.location.reload()
     });
 });
 
-
+function home(){
+  window.location.reload()
+}
 $(document).ready(function() {
   $('.navBarLogo').click(function() {
-    location.replace('/')
+    window.location.reload()
   });
 });
 

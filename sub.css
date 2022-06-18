@@ -30,6 +30,7 @@ a{
 .arrowBack{
     width: 1.5vw;
     transform: rotate(180deg);
+    cursor: url("assets/pointer.svg"),auto;
 }
 .arrowBack:hover{
     cursor: url("assets/pointer.svg"),auto;

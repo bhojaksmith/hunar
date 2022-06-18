@@ -2,7 +2,7 @@ img{
   pointer-events: none;
 }
 .navbuttons div:hover{
-  color:#000000;
+  color:#000000 !important;
   cursor: url('assets/pointer.svg'),auto;
 }
 .navBarLogo{
@@ -114,10 +114,12 @@ body{
       transition: ease-in 300ms  ;
       border:1px solid  black;
  }
- .contact:hover{
+ .navbuttons .contact:hover{
+  border:1px solid  white;
    cursor: url('assets/pointer.svg'),auto;
-   background: black;
+  background: black;
    color:#ffffff !important;
+   
  }
  .contact:active{
   transform: scale(0.95);
@@ -274,6 +276,7 @@ body{
   /* border: 1px solid; */
   
 }
+
 .aboutCardsContainer{
   animation: slideUp 1000ms ease-in-out;
   display: flex;
@@ -662,6 +665,7 @@ transform: scale(1.02);
     .navbuttons #active{
       color:black  !important;
     }
+    
     .about:hover{
       cursor:pointer;
 

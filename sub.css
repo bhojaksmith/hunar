@@ -387,22 +387,22 @@ background: url('assets/product/connect.jpg');
   background-size:100%;
   height: 18.5vw;
   width: 18.5vw;
-  margin:1.5%;
+  margin:4% 0%;
   border-radius: 8px;
   transition: ease-in 300ms;
 }
-.innerCard{
+.productCard,.magazineCard{
   background-position: center;
   background-size:100%;
   height: 15vw;
   width: 25vw;
-  margin:3%;
+  margin:2% 0%;
   border-radius: 8px;
   transition: ease-in 300ms;
   
 }
 
-.pitchDeck:hover,.illustrations:hover,.innerCard:hover{
+.pitchDeck:hover,.illustrations:hover,.productCard:hover,.magazineCard:hover{
   transform: scale(1.025);
   filter: brightness(110%);
   cursor: url('assets/pointer.svg'), auto;
@@ -428,14 +428,14 @@ background: url('assets/product/connect.jpg');
     height: 17vw;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1600px){
     .lfa17,.lfa16{
         height: 17vw;
     }
     .sub{
         padding: 0% 5%;
     }
-    .innerCard{
+    .productCard,.magazineCard{
         width: 28vw;
         height: 17.5vw;
     }
@@ -474,7 +474,7 @@ background: url('assets/product/connect.jpg');
     .processText{
         font-size: 1.5vw;
     }
-    .innerCard{
+    .productCard, .magazineCard{
         width: 42vw;
         height: 25vw;
     }
@@ -600,7 +600,7 @@ background: url('assets/product/connect.jpg');
         
     }
 
-    .lfa17,.lfa16,.innerCard{
+    .lfa17,.lfa16,.productCard,.magazineCard{
         height: 55vw;
         width: 90vw;
     }

@@ -102,7 +102,7 @@ body{
   /* padding: 3% 0%; */
   color: rgba(0, 0, 0, 0.4);
  }
- .active{
+ #active{
    color:black;
  }
  
@@ -233,7 +233,7 @@ body{
 .uiux{
   background: url('assets/cards/uiux.png');
 }
-.illustrations{
+.illustration{
   background: url('assets/cards/illustrations.png');
 }
 .photoediting{
@@ -254,7 +254,7 @@ body{
 .consultancy{
   background: url('assets/cards/consultancy.png');
 }
-.connect{
+.connects{
   background: url('assets/cards/connect.png');
 }
 .aboutContent{
@@ -308,20 +308,18 @@ body{
   filter: brightness(0.95);
   background-position: center;
   background-size:100%;
-  height: 13vw;
-  width: 25vw;
+  height: 13vw ;
+  width: 25vw ;
   margin:3%;
   border-radius: 8px;
   transition: ease-in 300ms;
 }
 .innerCard:hover{
-  
   transform: scale(1.025);
-  filter: brightness(1.025);
+  filter: brightness(110%);
   cursor: url('assets/pointer.svg'), auto;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.3); 
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
-
 
 .testimonials{
 
@@ -475,7 +473,10 @@ transform: scale(1.02);
   transform: scale(0.95);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1600px) {
+  .navbuttons div{
+    font-size: .88vw;
+  }
   .navBarContainer{
     padding: 1% 0% 1% 5%;
   }
@@ -658,7 +659,7 @@ transform: scale(1.02);
       margin:0% !important;
       color: rgba(0, 0, 0, 0.4);
     }
-    .navbuttons .active{
+    .navbuttons #active{
       color:black  !important;
     }
     .about:hover{

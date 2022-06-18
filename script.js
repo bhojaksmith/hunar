@@ -3,7 +3,7 @@ function run(){
     console.log('function Called')
     $('.content').imagesLoaded({ background: true }, function() {
         console.log('images loaded')
-        setTimeout(removeLoader, 2000);
+        setTimeout(removeLoader, 1500);
       });
  }
 
@@ -17,44 +17,113 @@ function run(){
     
     }
 
-    $(document).ready(function() {
-      $('.about').click(function() {
-        location.replace('about.html')
-      });
+$.get("navigation.html", function(data){
+      $(".navigation").replaceWith(data);
   });
+
+  $(document).ready(function() {
+    $('.about').click(function() {
+      $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("about.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
+    });
+});
   $(document).ready(function() {
     $('.home').click(function() {
-      location.replace('index.html')
+      location.replace('/')
     });
 });
 
 
 $(document).ready(function() {
   $('.navBarLogo').click(function() {
-    location.replace('index.html')
+    location.replace('/')
   });
 });
 
 function uiux(){
-  location.replace('product.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("product.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 function illustrations(){
-  location.replace('illustrations.html')
+  $(".main").fadeOut();
+  let loader = document.querySelector(".loader");
+  loader.style.display ='block'
+  $.get("illustration.html", function(data){
+      $(".main").replaceWith(data);
+  });
+  loader.style.display ='none'
+  $(".main").fadeIn();
+  jQuery('html,body').animate({scrollTop:0},0);
+ 
 }
 function photoediting(){
-  location.replace('photoediting.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("photoediting.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 function magazine(){
-  location.replace('magazine.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("magazine.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 function motion(){
-  location.replace('motion.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("motion.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 function pitch(){
-  location.replace('pitch.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("pitch.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 function branding(){
-  location.replace('branding.html')
+  $(".main").fadeOut();
+      let loader = document.querySelector(".loader");
+      loader.style.display ='block'
+      $.get("branding.html", function(data){
+          $(".main").replaceWith(data);
+      });
+      loader.style.display ='none'
+      $(".main").fadeIn();
+      jQuery('html,body').animate({scrollTop:0},0);
 }
 
 function setStellars(){

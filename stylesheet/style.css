@@ -3,7 +3,7 @@ img{
 }
 .navbuttons div:hover{
   color:#000000 !important;
-  cursor: url('../assets/pointer.svg'),auto;
+  /* cursor: url('../assets/pointer.svg'),auto; */
 }
 .navBarLogo{
   cursor: url('../assets/pointer.svg'),auto;
@@ -201,9 +201,10 @@ body{
 }
 a:hover{
   text-decoration: none !important;
-  
-}
+  color: #000000 !important;
+  cursor: url("../assets/pointer.svg"),auto;}
 a{
+  transition: 300ms ease-in;
   color: rgba(0, 0, 0, .6) !important;
 }
 .connectCTA{

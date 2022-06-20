@@ -1,4 +1,11 @@
-
+function blogs(){
+  swal(
+    'Coming Soon',
+    'We are still working on blogs check back again later !',
+  ).then(function() {
+   
+});
+}
 function run(){
     console.log('function Called')
     $('.content').imagesLoaded({ background: true }, function() {
@@ -21,6 +28,9 @@ $.get("../navigation.html", function(data){
       $(".navigation").replaceWith(data);
   });
 
+  $.get("../footer.html", function(data){
+    $(".footer").replaceWith(data);
+});
 //   $(document).ready(function() {
 //     $('.about').click(function() {
 //       $(".main").fadeOut();

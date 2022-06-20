@@ -25,15 +25,15 @@ a{
 .sub{
     animation: slideUp 500ms ease-in-out;
     padding: 0% 10%;
-    cursor: url('assets/cursor.svg'),auto;
+    cursor: url('../assets/cursor.svg'),auto;
 }
 .arrowBack{
     width: 1.5vw;
     transform: rotate(180deg);
-    cursor: url("assets/pointer.svg"),auto;
+    cursor: url("../assets/pointer.svg"),auto;
 }
 .arrowBack:hover{
-    cursor: url("assets/pointer.svg"),auto;
+    cursor: url("../assets/pointer.svg"),auto;
 }
 .definition {
     border-radius: 0px;
@@ -111,162 +111,162 @@ a{
     grid-template-columns: auto auto auto;
 }
 .stellars{
-    background: url('assets/product/stellars.jpg');
+    background: url('../assets/product/stellars.jpg');
 }
 .NeoFantasy{
-    background: url('assets/product/NeoFantasy.jpg');
+    background: url('../assets/product/NeoFantasy.jpg');
 }
 
 .Footrax{
-    background: url('assets/product/Footrax.jpg');
+    background: url('../assets/product/Footrax.jpg');
 }
 .AstroEnergyGuru{
-background: url('assets/product/AstroEnergyGuru.jpg');
+background: url('../assets/product/AstroEnergyGuru.jpg');
 }
 .FestingerVault{
-background: url('assets/product/FestingerVault.jpg');
+background: url('../assets/product/FestingerVault.jpg');
 }
 .neo2172{
-background: url('assets/product/2172.jpg');
+background: url('../assets/product/2172.jpg');
 }
 .parkingBae{
-background: url('assets/product/parkingBae.jpg');
+background: url('../assets/product/parkingBae.jpg');
 }
 .Inforida{
-background: url('assets/product/Inforida.jpg');
+background: url('../assets/product/Inforida.jpg');
 }
 .Babel{
-background: url('assets/product/Babel.jpg');
+background: url('../assets/product/Babel.jpg');
 }
 .Betterbarter{
-background: url('assets/product/Betterbarter.jpg');
+background: url('../assets/product/Betterbarter.jpg');
 }
 .sphereNews{
-background: url('assets/product/sphereNews.jpg');
+background: url('../assets/product/sphereNews.jpg');
 }
 .connect{
-background: url('assets/product/connect.jpg');
+background: url('../assets/product/connect.jpg');
 }
 .bhumi1{
-    background: url('assets/illustrations/bhumi_1.jpg');
+    background: url('../assets/illustrations/bhumi_1.jpg');
 }
 .bhumi2{
-    background: url('assets/illustrations/bhumi_2.jpg');
+    background: url('../assets/illustrations/bhumi_2.jpg');
 }
 .LisaMishra{
-    background: url('assets/illustrations/LisaMishra.jpg');
+    background: url('../assets/illustrations/LisaMishra.jpg');
 }
 .JuhiBhatt{
-    background: url('assets/illustrations/JuhiBhatt.jpg');
+    background: url('../assets/illustrations/JuhiBhatt.jpg');
 }
 .Manon{
-    background: url('assets/illustrations/Manon.jpg');
+    background: url('../assets/illustrations/Manon.jpg');
 }
 .GabyThomas{
-    background: url('assets/illustrations/GabbyThomas.jpg');
+    background: url('../assets/illustrations/GabbyThomas.jpg');
 }
 .GabyThomas_2{
-    background: url('assets/illustrations/GabbyThomas_2.jpg');
+    background: url('../assets/illustrations/GabbyThomas_2.jpg');
 }
 .SaharSaiyed{
-    background: url('assets/illustrations/SaharSaiyed.jpg');
+    background: url('../assets/illustrations/SaharSaiyed.jpg');
 }
 .SaharSaiyedRed{
-    background: url('assets/illustrations/SaharSaiyedRed.jpg');
+    background: url('../assets/illustrations/SaharSaiyedRed.jpg');
 }
 .AnushkaSen{
-    background: url('assets/illustrations/AnushkaSen.jpg');
+    background: url('../assets/illustrations/AnushkaSen.jpg');
 }
 .ShipraKhanna{
-    background: url('assets/illustrations/ShipraKhanna.jpg');
+    background: url('../assets/illustrations/ShipraKhanna.jpg');
 }
 .taapse{
-    background: url('assets/editing/taapse.jpg');
+    background: url('../assets/editing/taapse.jpg');
 }
 .indianCricketTeam{
-    background: url('assets/editing/indianCricketTeam.jpg');
+    background: url('../assets/editing/indianCricketTeam.jpg');
 }
 .klaudia{
-    background: url('assets/editing/klaudia.jpg');
+    background: url('../assets/editing/klaudia.jpg');
 }
 .klaudia2{
-    background: url('assets/editing/klaudia2.jpg');
+    background: url('../assets/editing/klaudia2.jpg');
 }
 .rohit{
-    background: url('assets/editing/rohit.jpg');
+    background: url('../assets/editing/rohit.jpg');
 }
 .pollard{
-    background: url('assets/editing/pollard.jpg');
+    background: url('../assets/editing/pollard.jpg');
 }
 .krunalPandya{
-    background: url('assets/editing/krunalPandya.jpg');
+    background: url('../assets/editing/krunalPandya.jpg');
 }
 .barbara{
-    background: url('assets/editing/barbara.jpg');
+    background: url('../assets/editing/barbara.jpg');
 }
 .michelle{
-    background: url('assets/editing/michelle.jpg');
+    background: url('../assets/editing/michelle.jpg');
 }
 .angelina{
-    background: url('assets/editing/angelina.jpg');
+    background: url('../assets/editing/angelina.jpg');
 }
 .angelina2{
-    background: url('assets/editing/angelina2.jpg');
+    background: url('../assets/editing/angelina2.jpg');
 }
 .louann{
-    background: url('assets/editing/louann.jpg');
+    background: url('../assets/editing/louann.jpg');
 }
 .marta{
-    background: url('assets/editing/marta.jpg');
+    background: url('../assets/editing/marta.jpg');
 }
 .gabbyThomas{
-    background: url('assets/editing/gabbyThomas.jpg');
+    background: url('../assets/editing/gabbyThomas.jpg');
 }
 .dishaPatani{
-    background: url('assets/editing/dishaPatani.jpg');
+    background: url('../assets/editing/dishaPatani.jpg');
 }
 .paulina{
-    background: url('assets/editing/paulina.jpg');
+    background: url('../assets/editing/paulina.jpg');
 }
 .nikitaGajjar{
-    background: url('assets/editing/nikitaGajjar.jpg');
+    background: url('../assets/editing/nikitaGajjar.jpg');
 }
 .adriana{
-    background: url('assets/editing/adriana.jpg');
+    background: url('../assets/editing/adriana.jpg');
 }
 .neofantasy{
-    background: url('assets/pitch/neofantasyPitchDeck.jpg');
+    background: url('../assets/pitch/neofantasyPitchDeck.jpg');
 }
 .nextblock{
-    background: url('assets/pitch/NextBlockPitchDeck.jpg');
+    background: url('../assets/pitch/NextBlockPitchDeck.jpg');
 }
 .betterbarter{
-    background: url('assets/pitch/BetterBarterPitchDeck.jpg');
+    background: url('../assets/pitch/BetterBarterPitchDeck.jpg');
 }
 .bdesigner{
-    background: url('assets/branding/bdesigner.png');
+    background: url('../assets/branding/bdesigner.png');
 }
 .meraki{
-    background: url('assets/branding/meraki.png');
+    background: url('../assets/branding/meraki.png');
 }
 .ms{
-    background: url('assets/branding/ms.png');
+    background: url('../assets/branding/ms.png');
 }
 .lohana{
-    background: url('assets/branding/lohana.png');
+    background: url('../assets/branding/lohana.png');
     
 }
 .lfa17{
-    background: url('assets/magazine/lfa17.png');
+    background: url('../assets/magazine/lfa17.png');
 }
 .lfa16{
-    background: url('assets/magazine/lfa16.png');
+    background: url('../assets/magazine/lfa16.png');
 }
 .barVideo{
-    background: url('assets/motion/bar.png');
+    background: url('../assets/motion/bar.png');
 }
 .bdesignerBOX{
-    background: url('assets/motion/bdesignerBOX.png');
+    background: url('../assets/motion/bdesignerBOX.png');
 }
 .pitchDeck{
     
@@ -405,8 +405,8 @@ background: url('assets/product/connect.jpg');
 
 .pitchDeck:hover,.illustrations:hover,.productCard:hover,.magazineCard:hover{
   transform: scale(1.025);
-  filter: brightness(110%);
-  cursor: url('assets/pointer.svg'), auto;
+  /* filter: brightness(105%); */
+  cursor: url('../assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
 .navBarContainer{

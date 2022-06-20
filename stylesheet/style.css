@@ -3,10 +3,10 @@ img{
 }
 .navbuttons div:hover{
   color:#000000 !important;
-  cursor: url('assets/pointer.svg'),auto;
+  cursor: url('../assets/pointer.svg'),auto;
 }
 .navBarLogo{
-  cursor: url('assets/pointer.svg'),auto;
+  cursor: url('../assets/pointer.svg'),auto;
 }
 .ConsultancyTitle{
   font-size: 2vw;
@@ -26,7 +26,7 @@ body{
   background-color: #F4F4FF !important;
 
   font-family: 'Montserrat', sans-serif !important;
-  cursor: url('assets/cursor.svg'), auto;	
+  cursor: url('../assets/cursor.svg'), auto;	
 }
 ::selection {
   background: #6C3FEA; /* WebKit/Blink Browsers */
@@ -57,7 +57,7 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
   background: #512db3; 
-  cursor: url('assets/pointer.svg'), auto;
+  cursor: url('../assets/pointer.svg'), auto;
 }
 
 
@@ -116,7 +116,7 @@ body{
  }
  .navbuttons .contact:hover{
   border:1px solid  white;
-   cursor: url('assets/pointer.svg'),auto;
+   cursor: url('../assets/pointer.svg'),auto;
   background: black;
    color:#ffffff !important;
    
@@ -131,7 +131,7 @@ body{
  }
  .innerCard:active{
   transform: scale(0.95);
-  filter: brightness(110%);
+  filter: brightness(105%);
 
  }
  .navbuttons div{
@@ -199,13 +199,19 @@ body{
   font-weight:500;
   color: rgba(0, 0, 0, 0.6);
 }
-
+a:hover{
+  text-decoration: none !important;
+  
+}
+a{
+  color: rgba(0, 0, 0, .6) !important;
+}
 .connectCTA{
   width: 31%;
   
   transition: 300ms ease-in;
   display: flex;
-  cursor: url(/assets/pointer.svg),auto;
+  cursor: url("../assets/pointer.svg"),auto;
 }
 .arrow{
   
@@ -234,31 +240,31 @@ body{
   font-weight: 800;
 }
 .uiux{
-  background: url('assets/cards/uiux.png');
+  background: url('../assets/cards/uiux.png');
 }
 .illustration{
-  background: url('assets/cards/illustrations.png');
+  background: url('../assets/cards/illustrations.png');
 }
 .photoediting{
-  background: url('assets/cards/photoediting.png');
+  background: url('../assets/cards/photoediting.png');
 }
 .magazine{
-  background: url('assets/cards/magazine.png');
+  background: url('../assets/cards/magazine.png');
 }
 .motion{
-  background: url('assets/cards/motion.png');
+  background: url('../assets/cards/motion.png');
 }
 .pitch{
-  background: url('assets/cards/pitch.png');
+  background: url('../assets/cards/pitch.png');
 }
 .branding{
-  background: url('assets/cards/branding.png');
+  background: url('../assets/cards/branding.png');
 }
 .consultancy{
-  background: url('assets/cards/consultancy.png');
+  background: url('../assets/cards/consultancy.png');
 }
 .connects{
-  background: url('assets/cards/connect.png');
+  background: url('../assets/cards/connect.png');
 }
 .aboutContent{
   animation: slideUp 500ms ease-in-out;
@@ -271,7 +277,7 @@ body{
   background-position: center;
   background-size:100%;
   position: fixed !important;
-  background-image: url("assets/about.jpg");
+  background-image: url("../assets/about.jpg");
   width: 100vw;
   height: 48vw;
   /* border: 1px solid; */
@@ -285,7 +291,7 @@ body{
   text-align: justify;
   padding: 1%;
   position: absolute;
-  padding-top: 39% !important;
+  padding-top: 26% !important;
 }
 .aboutCard{
   background: rgba(255, 255, 255, .8);
@@ -321,7 +327,7 @@ body{
 .innerCard:hover{
   transform: scale(1.025);
   filter: brightness(110%);
-  cursor: url('assets/pointer.svg'), auto;
+  cursor: url('../assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
 
@@ -469,14 +475,16 @@ transform: scale(1.02);
   text-decoration: underline;
 }
 .opensource:hover{
-  cursor: url(assets/pointer.svg), auto;
+  cursor: url("../assets/pointer.svg"), auto;
   color: #36008E;
 
 }
 .connectCTA:active,.opensource:active{
   transform: scale(0.95);
 }
-
+.mobile{
+  display: none;
+}
 @media screen and (max-width: 1600px) {
   .navbuttons div{
     font-size: .88vw;
@@ -516,6 +524,12 @@ transform: scale(1.02);
 
 @media screen and (max-width: 991px) {
 
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+  }
   .navbuttons div{
     font-size: 1.5vw;
   }
@@ -603,7 +617,7 @@ transform: scale(1.02);
   .aboutImageMain{
     background-position: center;
     background-size:100%;
-    background-image: url("assets/aboutMobile.jpg");
+    background-image: url("../assets/aboutMobile.jpg");
     width: 100vw;
     position: relative !important;
     height: 65vw;    
@@ -652,12 +666,13 @@ transform: scale(1.02);
       width: 100%;
       box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.09);
   }
-  
+
   .navbuttons{
       
       display: flex;
       width: 100%;
       justify-content: center;
+      align-items: center;
       padding: 3% 0%;
       /* border: 1px solid rgba(0, 0, 0, 0); */
       margin:0% !important;

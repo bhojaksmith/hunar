@@ -4,44 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
-  <loc>http://hunardesign.in/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/</loc>
+  <lastmod>2022-06-21T08:27:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/product-design/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/product-design/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/illustration-design/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/illustration-design/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/photo-editing/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/photo-editing/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/magazine-design/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/magazine-design/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/motion-graphics/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/motion-graphics/</loc>
+  <lastmod>2022-06-21T08:27:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/pitch-deck/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/pitch-deck/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hunardesign.in/branding-merchandizing/</loc>
-  <lastmod>2022-06-20T12:16:31+00:00</lastmod>
+  <loc>https://hunardesignstudios.in/branding-merchandizing/</loc>
+  <lastmod>2022-06-20T15:25:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hunardesignstudios.in/social-media/</loc>
+  <lastmod>2022-06-21T08:29:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

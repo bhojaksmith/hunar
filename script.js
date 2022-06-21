@@ -508,7 +508,7 @@ function setMindra(){
   });
 }
 function setDesigntalks(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/designtalks.png') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }

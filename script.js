@@ -492,7 +492,11 @@ function setlfa17(){
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
-
+function setlfa(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
 function setAarchik(){
   document.querySelector('.productLarge').setAttribute('src','../assets/social/aarchik.png') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {

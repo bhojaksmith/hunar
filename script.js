@@ -467,7 +467,7 @@ function setMeraki(){
   });
 }
 function setMS(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MSBranding.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MSBRANDING.png') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });

@@ -269,6 +269,27 @@ background: url('../assets/product/connect.jpg');
 .bdesignerBOX{
     background: url('../assets/motion/bdesignerBOX.png');
 }
+.bdesignerBOX{
+    background: url('../assets/motion/bdesignerBOX.png');
+}
+.lfa{
+    background: url('../assets/social/LFAHeader.png');
+}
+.aarchik{
+    background: url('../assets/social/aarchikHeader.png');
+}
+.mindra{
+    background: url('../assets/social/MindraHeader.png');
+}
+.designtalks{
+    background: url('../assets/social/DesignTalkHeader.png');
+}
+.letsbiz{
+    background: url('../assets/social/letsbizHeader.png');
+}
+.neofantasySocial{
+    background: url('../assets/social/neofantasyHeader.png');
+}
 .pitchDeck{
     
     background-position: center;

@@ -493,3 +493,28 @@ function setlfa17(){
   });
 }
 
+function setAarchik(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/aarchik.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+function setMindra(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/mindra.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+function setDesigntalks(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+function setNeofantasySocial(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/neofantasycontent.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}
+function setletsbiz(){
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/letsbiz.png') ;
+    $('.productLarge').imagesLoaded({ background: true }, function() {
+  });
+}

@@ -31,116 +31,48 @@ $.get("../navigation.html", function(data){
   $.get("../footer.html", function(data){
     $(".footer").replaceWith(data);
 });
-//   $(document).ready(function() {
-//     $('.about').click(function() {
-//       $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("about.html", function(data){
-//           $(".main").replaceWith(data);
-//           $(".sub").replaceWith(data);
 
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-//     });
-// });
-//   $(document).ready(function() {
-//     $('.home').click(function() {
-//       window.location.reload()
-//     });
-// });
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    
+    const slideMeUp = entry.target.querySelector('.slideMeUp');
+    
 
-// function home(){
-//   window.location.reload()
-// }
-// $(document).ready(function() {
-//   $('.navBarLogo').click(function() {
-//     window.location.reload()
-//   });
-// });
+    if (entry.isIntersecting) {
+      slideMeUp.classList.add('slideupAnimation');
+      
+	  return; // if we added the class, exit the function
+    }
 
-// function uiux(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("product.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
-// function illustrations(){
-//   $(".main").fadeOut();
-//   let loader = document.querySelector(".loader");
-//   loader.style.display ='block'
-//   $.get("illustration.html", function(data){
-//       $(".main").replaceWith(data);
-//   });
-//   loader.style.display ='none'
-//   $(".main").fadeIn();
-//   jQuery('html,body').animate({scrollTop:0},0);
- 
-// }
-// function photoediting(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("photoediting.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
-// function magazine(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("magazine.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
-// function motion(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("motion.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
-// function pitch(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("pitch.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
-// function branding(){
-//   $(".main").fadeOut();
-//       let loader = document.querySelector(".loader");
-//       loader.style.display ='block'
-//       $.get("branding.html", function(data){
-//           $(".main").replaceWith(data);
-//       });
-//       loader.style.display ='none'
-//       $(".main").fadeIn();
-//       jQuery('html,body').animate({scrollTop:0},0);
-// }
+    // We're not intersecting, so remove the class!
+    slideMeUp.classList.remove('slideupAnimation');
+    
+  });
+});
+
+
+observer.observe(document.querySelector('.slideMeUp-Wrapper'));
+
+const testimonailObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    
+    const slideMeUp = entry.target.querySelector('.testimonials');
+
+    if (entry.isIntersecting) {
+      slideMeUp.classList.add('slideupAnimation');
+	  return; // if we added the class, exit the function
+    }
+
+    // We're not intersecting, so remove the class!
+    slideMeUp.classList.remove('slideupAnimation');
+  });
+});
+
+
+testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
 function setStellars(){
+  
   document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Stellars School Case Study.png') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        

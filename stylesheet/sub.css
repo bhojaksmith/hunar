@@ -304,7 +304,7 @@ background: url('../assets/product/connect.jpg');
   }
 .modal{
     /* backdrop-filter: blur(8px); */
-    animation: fadeIn 300ms ease-in;
+    animation: fadeIn 500ms ease-in;
     background-color: rgba(0, 0, 0, 0.4) !important;
     display: flex;
     justify-content: space-between;
@@ -314,6 +314,7 @@ background: url('../assets/product/connect.jpg');
     
 }
 .productContainer{
+    
     transform: translate(40%,1%);
     border-radius: 24px;
     width: fit-content;
@@ -327,7 +328,7 @@ background: url('../assets/product/connect.jpg');
 }
 
 .productLarge{
-    
+    backdrop-filter: blur(24px);
     width: 55vw;
 
 }
@@ -339,14 +340,14 @@ background: url('../assets/product/connect.jpg');
     display: flex;
     width: 80%;
     background-color: rgba(255,255,255,0.2);
-    
+    backdrop-filter: blur(48px) !important;
+
 }
 .ContainerCard{
     
     color: #ffffff;
     padding: 2%;
     width: 50%;
-    backdrop-filter: blur(48px) !important;
 
     
 }
@@ -389,16 +390,17 @@ background: url('../assets/product/connect.jpg');
     font-size: 2vw;
     font-weight: 600;
 }
+
 .imageLarge{
     
-    transform: scale(1.02);
+    border-radius: 24px;
+    transform: scale(1.01);
     object-fit: cover;
     width: auto; /* width of container */
     height: 49vw; /* height of container */
     width: 50vw;
-    
-    
 }
+
 .illustrationsContainer{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -424,7 +426,6 @@ background: url('../assets/product/connect.jpg');
   transition: ease-in 300ms;
   
 }
-
 .pitchDeck:hover,.illustrations:hover,.productCard:hover,.magazineCard:hover{
   transform: scale(1.025);
   /* filter: brightness(105%); */
@@ -630,7 +631,7 @@ background: url('../assets/product/connect.jpg');
 
     
     .CardContainer{
-        border-radius: 0% !important;
+        border-radius: 8px !important;
         flex-direction: column;
         width:95%;
         transform: translate(2.5%,5%);
@@ -651,9 +652,14 @@ background: url('../assets/product/connect.jpg');
         transform: translate(0%,2%);
         bottom: 0;
     }
-    .productLarge,.imageLarge{
-        height: auto;
+    .productLarge{
         width: 100vw;
+    }
+    .imageLarge{
+        padding: 4%;
+        height: auto;
+        width: 95vw;
+        border-radius:24px !important;
     }
     .ContainerCard{
         width: 100%;

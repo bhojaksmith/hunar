@@ -43,9 +43,9 @@ body{
   overflow-x: clip;
   overflow-x: hidden;
   margin: 0 !important;
-  /* background: linear-gradient(to right, #f, #FFFFFF);  */
-  background-color: #F4F4FF !important;
-
+  /* background: linear-gradient(to left, #efeaff, #FFFFFF);  */
+  background-color: #F4F4FF !important ;
+  /* background-image: url('../assets/background_svg.svg'); */
   font-family: 'Montserrat', sans-serif !important;
   cursor: url('../assets/cursor.svg'), auto;	
 }
@@ -208,9 +208,10 @@ body{
 .heroText{
   width: 42%;
 }
-.heroImage{
+.heroImage{  
+  
   width: 38vw;
-  /* animation: upDown 3000ms ease-in-out  infinite; */
+  animation: zoomImage 500ms ease-in-out ;
 }
 
 .header{
@@ -226,7 +227,7 @@ a:hover{
   cursor: url("../assets/pointer.svg"),auto;}
 a{
   transition: 300ms ease-in;
-  color: rgba(0, 0, 0, .6) !important;
+  color: rgba(0, 0, 0, .4) !important;
 }
 .connectCTA{
   width: 31%;
@@ -335,8 +336,12 @@ a{
   font-weight: 500;  
   color:rgba(0, 0, 0, .6)
 }
+.slideupAnimation{
+  animation: slideUp 750ms ease-in-out;
+}
 .innerCard{
-  animation: slideUp 1000ms ease-in-out;
+  
+  animation: slideUp 750ms ease-in-out;
   filter: brightness(0.95);
   background-position: center;
   background-size:100%;

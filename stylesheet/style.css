@@ -670,14 +670,17 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 550px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
   .close{
     display: block;
     z-index: 3 !important;
     position: fixed !important;  
     background-color: #000000 !important;
-    height: 7vw;
-    width: 7vw;
-    margin-left: 90%;
+    height: 10vw;
+    width: 10vw;
+    margin-left: 85%;
     margin-top: 2%;
     font-size: 8vw !important;
     float: none !important;
@@ -686,7 +689,9 @@ transform: scale(1.02);
     opacity: 1 !important; 
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.05);
   }
-
+  .close:active{
+    transform: scale(0.8);
+  }
   .ConsultancyTitle{
     font-size: 6vw;
     font-weight: 800;

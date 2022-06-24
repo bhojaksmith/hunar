@@ -12,6 +12,10 @@ function run(){
         console.log('images loaded')
         setTimeout(removeLoader, 1500);
       });
+    $('.sub').imagesLoaded({ background: true }, function() {   
+      console.log('images loaded')
+      setTimeout(removeLoader, 1500);
+  });
  }
 
  function removeLoader(){

@@ -432,10 +432,7 @@ background: url('../assets/product/connect.jpg');
   cursor: url('../assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
-.navBarContainer{
-    width: 100%;
-    justify-content: space-between !important;
-}
+
 .gotoPortfolio{
     text-decoration: underline;
     padding-top:1%;
@@ -519,6 +516,7 @@ background: url('../assets/product/connect.jpg');
     }
 }
 @media screen and (max-width: 550px) {
+    
     .ContainerCard{
         padding: 5%;
     }

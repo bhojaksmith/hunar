@@ -9,14 +9,25 @@ img{
   cursor: url('../assets/pointer.svg'),auto;
 }
 .footerContainer{
-  display: flex;
-  width: 100vw;
-  background-color: #fff;
+  padding: 3%;
+  display: flex;  
+  background: linear-gradient(to left, #8100E7 0%, #2D0A79 100%);
+  background: linear-gradient(320deg, #202020 0%, #000000 100%);
   justify-content: center;
   align-items: center;
+  color: #ffffff !important;
 }
 .footerContainer > *{
   padding:2% 7% ;
+}
+.close{
+  display: none;
+}
+.closeIcon{
+  padding: 5%;
+  color: #ffffff !important;
+  text-shadow: none !important;
+  margin: 0% !important;
 }
 .sitemap{
   display: flex;
@@ -64,7 +75,7 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #FFF8EA; 
+  background: #16083d; 
 }
 
 /* Handle */
@@ -98,26 +109,29 @@ body{
 }
 
 .navBarContainer {
+  margin: 0 !important;
   z-index: 2;
   animation: slideDown 600ms ease-in-out;
-  padding: 1% 0% 1% 10%;
+  padding: 1% 10%;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background:#FAFAFB;
+  
   position: fixed;
   height: max-content;
   left: 0px;
   top: 0px;
-  background: #FAFAFB;
+  /* background: rgba(255, 255 255, .); */
+  /* backdrop-filter: blur(24px); */
+  background: #ffffff;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.05);
  }
  .navbuttons{
   font-weight: 600;
   color: black;
   display: flex;
-  margin-right: 11%;
+  margin-right: 0%;
   
   
   /* padding: 3% 0%; */
@@ -209,11 +223,11 @@ body{
   width: 42%;
 }
 .heroImage{  
-  
-  width: 38vw;
+    width: 38vw;
+}
+.zoomImage{
   animation: zoomImage 500ms ease-in-out ;
 }
-
 .header{
   text-align: justify;
   margin:3% 0%;
@@ -299,10 +313,10 @@ a{
 .aboutImageMain{
   background-position: center;
   background-size:100%;
-  position: fixed !important;
+  
   background-image: url("../assets/about.jpg");
   width: 100vw;
-  height: 48vw;
+  height: 46vw;
   /* border: 1px solid; */
   
 }
@@ -365,9 +379,10 @@ padding: 2% 10% 2% 10%;
 
 }
 .testimonialsContent{
-  background-color: #F2EAFF;
-  color:#36008E;
-padding: 2% 5%;
+  border-radius: 24px !important;
+  background-color: #ffffff;
+  color:#333333;
+padding: 2% 5% 2% 1.5%;
 display: flex;
 flex-direction: column;
 }
@@ -517,10 +532,12 @@ transform: scale(1.02);
     font-size: .88vw;
   }
   .navBarContainer{
-    padding: 1% 0% 1% 5%;
+    padding: 1% 5%;
+    width: 100%;
   }
   .navbuttons{
-    margin-right:5%
+    margin:0% !important;
+    
   }
   .heroContent{
     padding-left: 0%;
@@ -554,7 +571,8 @@ transform: scale(1.02);
     display: flex;
     flex-direction: column;
     width: 100vw;
-    background-color: #fff;
+    /* background-color: #fff; */
+    
     justify-content: center;
     align-items: center;
   }
@@ -588,8 +606,9 @@ transform: scale(1.02);
     width: 15vw;
   }
   .navBarContainer{
-    padding: 1% 0% 1% 5%;
+    padding: 1% 0% 1% 1% !important;
   }
+
   .navbuttons{
     margin-right:5%
   }
@@ -651,6 +670,23 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 550px) {
+  .close{
+    display: block;
+    z-index: 3 !important;
+    position: fixed !important;  
+    background-color: #000000 !important;
+    height: 7vw;
+    width: 7vw;
+    margin-left: 90%;
+    margin-top: 2%;
+    font-size: 8vw !important;
+    float: none !important;
+    font-weight: 300 !important;
+    border-radius: 100%;
+    opacity: 1 !important; 
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.05);
+  }
+
   .ConsultancyTitle{
     font-size: 6vw;
     font-weight: 800;
@@ -706,6 +742,8 @@ transform: scale(1.02);
     width: 50%;
   }
   .navBarContainer{
+      border-radius: 8px;
+      
       flex-direction: column;
       align-items: center;
       justify-content: space-between;

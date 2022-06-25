@@ -71,21 +71,21 @@ const testimonailObserver = new IntersectionObserver(entries => {
 });
 testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
-const heroImage = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
+// const heroImage = new IntersectionObserver(entries => {
+//   entries.forEach(entry => {
     
-    const slideMeUp = entry.target.querySelector('.heroImage');
+//     const slideMeUp = entry.target.querySelector('.heroImage');
 
-    if (entry.isIntersecting) {
-      slideMeUp.classList.add('zoomImage');
-	  return; // if we added the class, exit the function
-    }
+//     if (entry.isIntersecting) {
+//       slideMeUp.classList.add('zoomImage');
+// 	  return; // if we added the class, exit the function
+//     }
 
-    // We're not intersecting, so remove the class!
-    slideMeUp.classList.remove('zoomImage');
-  });
-});
-heroImage.observe(document.querySelector('.heroImageContainer'));
+//     // We're not intersecting, so remove the class!
+//     slideMeUp.classList.remove('zoomImage');
+//   });
+// });
+// heroImage.observe(document.querySelector('.heroImageContainer'));
 
 function setStellars(){
   

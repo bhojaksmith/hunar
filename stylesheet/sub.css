@@ -7,6 +7,7 @@ a{
     color: inherit !important;
     text-decoration: none;
 }
+ 
 .subHeader{
     
     
@@ -40,6 +41,7 @@ a{
     border-radius: 0px;
     margin: 1% 0%;
     padding: 1%;
+    /* animation: slideDown 500ms ease-in-out; */
 }
 .definitionTitle{
     padding-bottom: 1%;
@@ -77,6 +79,7 @@ a{
     grid-template-columns: auto auto;
 }
 .processGrid{
+    animation: slideUp 800ms ease-in-out;
     text-align: justify;
     margin:0% 3% 3% 0%;
     background-color: #ffffff;
@@ -470,6 +473,7 @@ background: url('../assets/product/connect.jpg');
       }
 }
 @media screen and (max-width: 991px){
+
     .sub{
         padding: 0% 5%;
     }
@@ -514,6 +518,7 @@ background: url('../assets/product/connect.jpg');
     .ContainerCard{
         padding: 5%;
     }
+   
 }
 @media screen and (max-width: 550px) {
     

@@ -190,22 +190,23 @@ body{
  .title1 {
   margin-top: 0;
   margin-bottom: 0;
-  
   color: black; 
   font-size: 3.5vw !important;
-  font-weight:700;
+  font-weight:bolder;
   letter-spacing: 2%;
+  
 }
 
 
 
 .title2{
+  
   padding-top: 1%;
   margin: 0% !important; 
-  background: linear-gradient(-45deg, #6C3FEA, #23a6d5, #FDAE38 , #34FE9D);
+  background: linear-gradient(-45deg, #6C3FEA, #23d591, #FDAE38 , #be34fe);
   background-size: 400% 400%;
 	animation: gradient 10s ease infinite;  font-size: 3.5vw;
-  font-weight:700;
+  font-weight:900;
   text-align: left;
   -webkit-background-clip: text;
   background-clip:text;
@@ -216,7 +217,7 @@ body{
 }  
  
 .heroContent{
-  animation: slideUp 500ms ease-in-out;
+  animation: slideRight 500ms ease-in-out;
   padding-top: 8%;
   padding-left: 8%;
   display: flex;
@@ -227,12 +228,11 @@ body{
 .heroText{
   width: 42%;
 }
-.heroImage{  
+.heroImage{
+    animation: slideLeft 500ms ease-in-out ;
     width: 38vw;
 }
-.zoomImage{
-  animation: zoomImage 500ms ease-in-out ;
-}
+
 .header{
   text-align: justify;
   margin:3% 0%;
@@ -385,11 +385,11 @@ padding: 2% 10% 2% 10%;
 }
 .testimonialsContent{
   border-radius: 24px !important;
-  color:#333333;
+  color:#333333 !important;
   padding: 2% 5% 2% 1.5%;
   display: flex;
   flex-direction: column;
-  background: #ffffff;
+  background: #ffffff !important;
   
 }
 
@@ -472,6 +472,7 @@ font-weight: 600;
 }
 .ourNumber{
 font-size: 1vw;
+font-weight: medium;
 }
 .ourMail{
 padding-top: 2%;
@@ -686,7 +687,7 @@ transform: scale(1.02);
     background-color: #000000 !important;
     height: 10vw;
     width: 10vw;
-    margin-left: 85%;
+    margin-left: 83%;
     margin-top: 2%;
     font-size: 8vw !important;
     float: none !important;
@@ -821,14 +822,14 @@ transform: scale(1.02);
       text-align: left;
       font-size: 8vw !important;
       font-weight: 900;
-      animation: slideUp 800ms ease-in;
+      
    }
    .title2{
      text-align: left;
      font-size: 8vw !important;
      line-height: 100%;
      font-weight: 900;
-     animation: slideUp 1s ease-in;
+     
    }
    .header{
        font-size: 4vw;

@@ -20,6 +20,26 @@
     }
     
  }
+ @keyframes slideRight{
+  0%{
+     transform: translate(-50px,50px);
+     opacity:0.5;
+  }
+  100%{
+    transform: translate(0px);   
+    opacity:1;
+  }
+}
+@keyframes slideLeft{
+  0%{
+     transform: translate(150px,0px);
+     opacity:0.5;
+  }
+  100%{
+    transform: translate(0px,0px);   
+    opacity:1;
+  }
+}
  @keyframes gradient{
    0% {
 		background-position: 0% 50%;

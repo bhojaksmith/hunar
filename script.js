@@ -71,10 +71,10 @@ const testimonailObserver = new IntersectionObserver(entries => {
 });
 testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
-// const heroImage = new IntersectionObserver(entries => {
+// const herotext = new IntersectionObserver(entries => {
 //   entries.forEach(entry => {
     
-//     const slideMeUp = entry.target.querySelector('.heroImage');
+//     const slideMeUp = entry.target.querySelector('.titleContainer');
 
 //     if (entry.isIntersecting) {
 //       slideMeUp.classList.add('zoomImage');

@@ -200,7 +200,6 @@ body{
 
 
 .title2{
-  
   padding-top: 1%;
   margin: 0% !important; 
   background: linear-gradient(-45deg, #6C3FEA, #23d591, #FDAE38 , #be34fe);
@@ -212,7 +211,7 @@ body{
   background-clip:text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 2%;
-  line-height: 3.5vw;
+  line-height: 3vw;
   width: fit-content;
 }  
  
@@ -802,13 +801,13 @@ transform: scale(1.02);
      }
    .heroContent{
       padding-top: 36%;
-      
+      animation:slideUp 800ms ease-in-out;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
    }
    .heroImage{
-      
+    animation:zoomImage 500ms ease-in-out;
       width:100vw ;
       
    }

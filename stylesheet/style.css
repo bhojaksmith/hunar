@@ -8,6 +8,7 @@ img{
 .navBarLogo{
   cursor: url('../assets/pointer.svg'),auto;
 }
+
 .footerContainer{
   padding: 3%;
   display: flex;  
@@ -265,7 +266,7 @@ a{
 }
 
 .services{
-  padding: 0% 10% ;
+  padding: 10% 10% ;
   animation: slideUp 500ms ease-in-out;
   width: 100%;
   
@@ -274,7 +275,10 @@ a{
 .cards{
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-gap:5%;
+
 }
+
 .cardTitle{
   font-size:2vw  !important;
   padding: 1% 0%;
@@ -363,15 +367,29 @@ a{
   filter: brightness(0.95);
   background-position: center;
   background-size:100%;
-  height: 13vw ;
-  width: 25vw ;
-  margin:3%;
-  border-radius: 8px;
+  height: 24vw ;
+  width: 24vw ;
+  
+  border-radius: 1000px;
   transition: ease-in 300ms;
 }
+
+ .cards  a{
+  overflow: clip;
+  border-radius: 1000px;
+   /* z-index: 2;*/
+   /* border: 1px solid; */
+   margin: 0% !important;
+   
+
+}
+
 .innerCard:hover{
-  transform: scale(1.025);
-  filter: brightness(110%);
+  transform: scale(1.1);
+}
+.innerCard:hover{
+  
+  filter: brightness(106%);
   cursor: url('../assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
@@ -418,13 +436,13 @@ overflow: clip;
 }
 .carousel-indicators li{
 background-color: rgba(0,0,0,0);
-border: 1px solid #36008E !important;
+border: 1px solid #202020 !important;
 }
 .carousel-indicators li:hover{
 cursor: pointer;
 }
 .carousel-indicators .active{
-background-color: #36008E !important;
+background-color: #202020 !important;
 }
 .form-control{
 border:none !important;
@@ -533,6 +551,7 @@ transform: scale(1.02);
 .mobile{
   display: none;
 }
+
 @media screen and (max-width: 1600px) {
   .navbuttons div{
     font-size: .88vw;
@@ -556,13 +575,10 @@ transform: scale(1.02);
     font-size: 1.3vw;
   }
   .services{
-    padding: 0 5%;
+    padding: 5% 5%;
   }
   
-  .innerCard{
-    width: 28vw;
-    height: 14vw;
-  }
+
   .testimonials{
     padding:5% 5%;
 
@@ -573,6 +589,9 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 991px) {
+  .cards{
+    grid-row-gap: 0% !important;
+  }
   .footerContainer{
     display: flex;
     flex-direction: column;
@@ -610,14 +629,13 @@ transform: scale(1.02);
   }
   .logo{
     width: 15vw;
-  }
-  .navBarContainer{
-    padding: 1% 0% 1% 1% !important;
+    
   }
 
-  .navbuttons{
-    margin-right:5%
+  .navBarContainer{
+    padding: 1% 3% 1% 3% !important;
   }
+ 
   .heroContent{
     padding-left: 0%;
     width: 100%;
@@ -636,7 +654,8 @@ transform: scale(1.02);
   }
   .innerCard{
     width: 42vw;
-    height: 22vw;
+    height: 42vw;
+    margin-bottom: 8%;
   }
   .testimonials{
     padding:5% 5%
@@ -846,7 +865,7 @@ transform: scale(1.02);
   }
   
   .innerCard{
-      height: 45vw;
+      height: 90vw;
       width: 90vw;
       margin: 1% !important;
       

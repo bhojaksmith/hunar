@@ -266,7 +266,7 @@ a{
 }
 
 .services{
-  padding: 10% 10% ;
+  padding: 0% 10% 10% 10% ;
   animation: slideUp 500ms ease-in-out;
   width: 100%;
   

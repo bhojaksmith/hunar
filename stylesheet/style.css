@@ -80,14 +80,14 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #16083d; 
+  background: #f4f4f4; 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #6C3FEA; 
-  border-radius: 8px;
+  border-radius: 108px;
 }
 
 /* Handle on hover */
@@ -590,6 +590,12 @@ transform: scale(1.02);
 }
 
 @media screen and (max-width: 991px) {
+  /* Handle */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #f4f4f4; 
+  border-radius: 108px;
+}
   .cards{
     grid-row-gap: 0% !important;
   }
@@ -858,7 +864,17 @@ transform: scale(1.02);
    }
    .cards{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow:scroll;
+    white-space: nowrap;
+    
+    padding-left: 5%;
+    
+  }
+  .cards a{
+    overflow-x: visible;
+    box-sizing: content-box;
+    
   }
    .cardTitle{
       font-size:6vw  !important;
@@ -866,14 +882,18 @@ transform: scale(1.02);
   }
   
   .innerCard{
-      height: 90vw;
-      width: 90vw;
+      height: 75vw;
+      width: 75vw;
       margin: 1% !important;
       
+      
+  }
+  .cardTitle{
+    padding: 5%;
   }
  .services{
-  
-    padding: 5%;
+    
+    padding: 0%;
     width: 100%;
  }
  .testimonials{

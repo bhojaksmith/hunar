@@ -16,7 +16,6 @@
     <div class="loaderParent">
       <lottie-player src="assets/loader.json" background="transparent" speed="0.5" style="width: 200px; height: 200px;" loop autoplay class="loader"></lottie-player>
     </div>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4PG7EJ38EH"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
 
@@ -26,7 +25,6 @@
       gtag('js', new Date());
       gtag('config', 'G-4PG7EJ38EH');
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y170XMXYX9"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
 
@@ -197,10 +195,17 @@
     <!--[if lte IE 9]>
 												<script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script>
 												<![endif]-->
-    <script type="text/javascript" src="script.js?3"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
     <script>
+
+        var versionUpdate = (new Date()).getTime();  
+      var script = document.createElement("script");  
+      script.type = "text/javascript";  
+      script.src = "script.js?v=" + versionUpdate;  
+      document.body.appendChild(script);  
+
       const mediaQuery = window.matchMedia('(min-width: 768px)')
       setTimeout(function() {
         if (mediaQuery.matches) {
@@ -212,15 +217,30 @@
           });
         }
       }, 2500);
+
+      const testimonailObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    
+    const slideMeUp = entry.target.querySelector('.testimonials');
+
+    if (entry.isIntersecting) {
+      slideMeUp.classList.add('slideupAnimation');
+	  return; // if we added the class, exit the function
+    }
+
+    // We're not intersecting, so remove the class!
+    slideMeUp.classList.remove('slideupAnimation');
+  });
+});
+testimonailObserver.observe(document.querySelector('.testimonialContainer'));
+
     </script>
     <style>
       .home a {
         color: #000000 !important;
       }
 
-      .subnav a {
-        color: rgba(255, 255, 255, 0.6) !important;
-      }
+     
     </style>
   </body>
 </html>

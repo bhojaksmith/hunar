@@ -10,13 +10,21 @@ img{
 }
 
 .footerContainer{
+  width: 100vw;
+  
+  position: absolute;
   padding: 3%;
   display: flex;  
-  background: linear-gradient(to left, #8100E7 0%, #2D0A79 100%);
-  background: linear-gradient(320deg, #202020 0%, #000000 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
   justify-content: center;
   align-items: center;
-  color: #ffffff !important;
+  
+}
+.subnav a{
+  color:rgba(0,0,0,0.6) !important;
+}
+.subnav a:hover{
+  color:rgba(0,0,0,1) !important;
 }
 .footerContainer > *{
   padding:2% 7% ;
@@ -375,8 +383,18 @@ a{
   height: 24vw ;
   width: 24vw ;
   
-  border-radius: 1000px;
+  border-radius: 1vw;
   transition: ease-in 300ms;
+}
+.grid {
+  gap: 2vw;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.motiongraphics{
+  height: 14vw ;
+  width: 24vw ;
+  
 }
 
  .cards  a{
@@ -390,7 +408,7 @@ a{
 }
 
 .innerCard:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .innerCard:hover{
   

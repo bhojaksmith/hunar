@@ -57,21 +57,7 @@ const observer = new IntersectionObserver(entries => {
 });
 observer.observe(document.querySelector('.slideMeUp-Wrapper'));
 
-const testimonailObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    
-    const slideMeUp = entry.target.querySelector('.testimonials');
 
-    if (entry.isIntersecting) {
-      slideMeUp.classList.add('slideupAnimation');
-	  return; // if we added the class, exit the function
-    }
-
-    // We're not intersecting, so remove the class!
-    slideMeUp.classList.remove('slideupAnimation');
-  });
-});
-testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
 // const herotext = new IntersectionObserver(entries => {
 //   entries.forEach(entry => {

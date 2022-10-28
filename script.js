@@ -318,7 +318,7 @@ function setBhumi2(){
 function LisaMishra(){
   $('.ContainerTitle').html("Lisa Mishra");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/lisaMishra.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/lisa.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });

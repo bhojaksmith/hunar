@@ -1,3 +1,5 @@
+/*Version 2*/ 
+
 function blogs(){
   swal(
     'Coming Soon',

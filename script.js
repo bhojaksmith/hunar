@@ -89,57 +89,57 @@ testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
 function setStellars(){
   
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Stellars School Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Stellars School Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 
 function setNeofantasy(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/NeoFanTasy Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/NeoFanTasy Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setFootrax(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Footrax Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Footrax Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setAstro(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Astro Energy Guru.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Astro Energy Guru.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setFestinger(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Festinger Vault.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Festinger Vault.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function set21by72(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/21 BY 72 Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/21 BY 72 Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setParkingBae(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Parking Bae Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Parking Bae Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setInforida(){
   
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Inforida Case Study.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Inforida Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setSphere(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -153,7 +153,7 @@ function setTapsee(){
   
   $('.ContainerTitle').html("Tapsee Pannu");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/taapse.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/taapse.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -162,7 +162,7 @@ function setTapsee(){
 function setINC(){
   $('.ContainerTitle').html("Indian National Cricket Team");
   $('.ContainerSubtitle').html("World test championship");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/indianCricketTeam.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/indianCricketTeam.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -171,7 +171,7 @@ function setINC(){
 function setklaudia(){
   $('.ContainerTitle').html("Klaudia Nicole");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/klaudia.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/klaudia.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -180,7 +180,7 @@ function setklaudia(){
 function setklaudia2(){
   $('.ContainerTitle').html("Tapsee Pannu");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/klaudia2.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/klaudia2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -189,7 +189,7 @@ function setklaudia2(){
 function setRohit(){
   $('.ContainerTitle').html("Rohit Sharma");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/rohit.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/rohit.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -198,7 +198,7 @@ function setRohit(){
 function setPollard(){
   $('.ContainerTitle').html("Kieron Pollard");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/pollard.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/pollard.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -207,7 +207,7 @@ function setPollard(){
 function setKrunalPandya(){
   $('.ContainerTitle').html("Krunal Pandya");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/krunalPandya.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/krunalPandya.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -216,7 +216,7 @@ function setKrunalPandya(){
 function setBarbara(){
   $('.ContainerTitle').html("Barbara");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/barbara.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/barbara.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -225,7 +225,7 @@ function setBarbara(){
 function setMichelle(){
   $('.ContainerTitle').html("Michelle Dalton");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/michelle.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/michelle.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -234,7 +234,7 @@ function setMichelle(){
 function setAngelina(){
   $('.ContainerTitle').html("Angelina");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/angelina.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/angelina.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -243,7 +243,7 @@ function setAngelina(){
 function setAngelina2(){
   $('.ContainerTitle').html("Angelina");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/angelina2.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/angelina2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -252,7 +252,7 @@ function setAngelina2(){
 function setLouann(){
   $('.ContainerTitle').html("Louann");
   $('.ContainerSubtitle').html("Gamer");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/louann.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/louann.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -261,7 +261,7 @@ function setLouann(){
 function setMarta(){
   $('.ContainerTitle').html("Marta Ratia");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/marta.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/marta.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -270,7 +270,7 @@ function setMarta(){
 function setDishaPatani(){
   $('.ContainerTitle').html("Disha Patani");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/dishaPatani.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/dishaPatani.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -279,7 +279,7 @@ function setDishaPatani(){
 function setPaulina(){
   $('.ContainerTitle').html("Paulina Karpenko");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/paulina.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/paulina.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -288,7 +288,7 @@ function setPaulina(){
 function setNikita(){
   $('.ContainerTitle').html("Nikkita Gajjar");
   $('.ContainerSubtitle').html("Wedding Album");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/nikitaGajjar.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/nikitaGajjar.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -297,7 +297,7 @@ function setNikita(){
 function setAdriana(){
   $('.ContainerTitle').html("Adriana");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/adriana.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/adriana.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -305,7 +305,7 @@ function setAdriana(){
 function setGabbyThomasPhoto(){
   $('.ContainerTitle').html("Gabby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/GabbyThomas.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/large/GabbyThomas.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -314,7 +314,7 @@ function setGabbyThomasPhoto(){
 function setBhumi1(){
   $('.ContainerTitle').html("Bhumi Kelaiya");
   $('.ContainerSubtitle').html("Canikography");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/bhumi1.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/bhumi1.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -322,7 +322,7 @@ function setBhumi1(){
 function setBhumi2(){
   $('.ContainerTitle').html("Bhumi Kelaiya");
   $('.ContainerSubtitle').html("Canikography");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/bhumi2.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/bhumi2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -330,7 +330,7 @@ function setBhumi2(){
 function LisaMishra(){
   $('.ContainerTitle').html("Lisa Mishra");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/lisaMishra.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/lisaMishra.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -338,7 +338,7 @@ function LisaMishra(){
 function JuhiBhatt(){
   $('.ContainerTitle').html("Juhi Bhatt");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/JuhiBhatt.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/JuhiBhatt.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -346,7 +346,7 @@ function JuhiBhatt(){
 function manon(){
   $('.ContainerTitle').html("Manon");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/Manon.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/Manon.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -354,7 +354,7 @@ function manon(){
 function GabyThomas(){
   $('.ContainerTitle').html("Gaby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/GabbyThomas_1.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/GabbyThomas_1.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -362,7 +362,7 @@ function GabyThomas(){
 function GabyThomas_2(){
   $('.ContainerTitle').html("Gaby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/GabbyThomas_2.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/GabbyThomas_2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -370,7 +370,7 @@ function GabyThomas_2(){
 function SaharSaiyed(){
   $('.ContainerTitle').html("Sahar Saiyed");
   $('.ContainerSubtitle').html("Fan Art");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/SaharSaiyed.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/SaharSaiyed.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -378,7 +378,7 @@ function SaharSaiyed(){
 function SaharSaiyedRed(){
   $('.ContainerTitle').html("Sahar Saiyed");
   $('.ContainerSubtitle').html("Fan Art");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/SaharSaiyedRed.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/SaharSaiyedRed.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -386,7 +386,7 @@ function SaharSaiyedRed(){
 function AnushkaSen(){
   $('.ContainerTitle').html("Anushka Sen");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/AnushkaSen.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/AnushkaSen.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
   
   });
@@ -395,34 +395,34 @@ function ShipraKhanna(){
   $('.ContainerTitle').html("Shipra Khanna");
   $('.ContainerSubtitle').html("Masterchef India Winner");
   
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/ShipraKhanna.jpg') ;
+  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/large/ShipraKhanna.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
   
   });
 }
 
 function setBdesigner(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/BdesignerBranding.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/branding/BdesignerBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 
 function setMeraki(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MerakiBranding.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MerakiBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 function setMS(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MSBRANDING.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MSBRANDING.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 
 function setLohana(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/LohanaBranding.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/branding/LohanaBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
@@ -430,43 +430,43 @@ function setLohana(){
 }
 
 function setlfa16(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa16Detail.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa16Detail.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 
 function setlfa17(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa17Detail.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa17Detail.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setlfa(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setAarchik(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/aarchik.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/aarchik.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setMindra(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/mindra.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/mindra.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setDesigntalks(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/designtalks.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/designtalks.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setNeofantasySocial(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/neofantasycontent.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/neofantasycontent.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setletsbiz(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/letsbiz.png') ;
+  document.querySelector('.productLarge').setAttribute('src','../assets/social/letsbiz.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }

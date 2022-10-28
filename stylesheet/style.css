@@ -56,7 +56,7 @@ body{
   overflow-x: hidden;
   margin: 0 !important;
   /* background: linear-gradient(to left, #efeaff, #FFFFFF);  */
-  background-color: #f4f4f4 !important ;
+  background-color: #ffffff !important ;
   /* background-image: url('../assets/background_svg.svg'); */
   font-family: 'Montserrat', sans-serif !important;
   cursor: url('../assets/cursor.svg'), auto;	
@@ -238,7 +238,7 @@ body{
   margin:3% 0%;
   font-size: 1.1vw;
   font-weight:500;
-  color: rgba(0, 0, 0, 0.6);
+  
 }
 a:hover{
   text-decoration: none !important;
@@ -249,10 +249,14 @@ a{
   color: rgba(0, 0, 0, .4) !important;
 }
 .connectCTA{
-  width: 31%;
-  
+  border-radius: 24vw;
+  width: 26%;
+  justify-content: space-between;
+  font-weight: 600;
   transition: 300ms ease-in;
   display: flex;
+  border: 1px solid black;
+  padding: 2%;
   cursor: url("../assets/pointer.svg"),auto;
 }
 .arrow{
@@ -286,31 +290,31 @@ a{
   font-weight: 800;
 }
 .uiux{
-  background: url('../assets/cards/uiux.png');
+  background: url('../assets/cards/uiux.webp');
 }
 .illustration{
-  background: url('../assets/cards/illustrations.png');
+  background: url('../assets/cards/illustrations.webp');
 }
 .photoediting{
-  background: url('../assets/cards/photoediting.png');
+  background: url('../assets/cards/photoediting.webp');
 }
 .magazine{
-  background: url('../assets/cards/magazine.png');
+  background: url('../assets/cards/magazine.webp');
 }
 .motion{
-  background: url('../assets/cards/motion.png');
+  background: url('../assets/cards/motion.webp');
 }
 .pitch{
-  background: url('../assets/cards/pitch.png');
+  background: url('../assets/cards/pitch.webp');
 }
 .branding{
-  background: url('../assets/cards/branding.png');
+  background: url('../assets/cards/branding.webp');
 }
 .consultancy{
-  background: url('../assets/cards/consultancy.png');
+  background: url('../assets/cards/consultancy.webp');
 }
 .connects{
-  background: url('../assets/cards/social.png');
+  background: url('../assets/cards/social.webp');
 }
 .aboutContent{
   animation: slideUp 500ms ease-in-out;
@@ -323,7 +327,7 @@ a{
   background-position: center;
   background-size:100%;
   
-  background-image: url("../assets/about.jpg");
+  background-image: url("../webp/about.webp");
   width: 100vw;
   height: 46vw;
   /* border: 1px solid; */
@@ -552,8 +556,17 @@ transform: scale(1.02);
 .mobile{
   display: none;
 }
+.cards{
+  overflow: clip;
+  justify-content: center;
+  align-items: center;
+ }
 
 @media screen and (max-width: 1600px) {
+
+  .innerCardContainer{
+    overflow: clip;
+  }
   .navbuttons div{
     font-size: .88vw;
   }
@@ -597,7 +610,8 @@ transform: scale(1.02);
   border-radius: 108px;
 }
   .cards{
-    grid-row-gap: 0% !important;
+    justify-content: start;
+    grid-row-gap: 1% ;
   }
   .footerContainer{
     display: flex;
@@ -658,11 +672,12 @@ transform: scale(1.02);
   }
   .cards{
     grid-template-columns: auto auto;
+    
+
   }
   .innerCard{
     width: 42vw;
     height: 42vw;
-    margin-bottom: 8%;
   }
   .testimonials{
     padding:5% 5%
@@ -735,7 +750,7 @@ transform: scale(1.02);
   .aboutImageMain{
     background-position: center;
     background-size:100%;
-    background-image: url("../assets/aboutMobile.jpg");
+    background-image: url("../assets/aboutMobile.webp");
     width: 100vw;
     position: relative !important;
     height: 65vw;    

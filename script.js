@@ -38,24 +38,24 @@ $.get("../navigation.html", function(data){
     $(".footer").replaceWith(data);
 });
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
+// const observer = new IntersectionObserver(entries => {
+//   entries.forEach(entry => {
     
-    const slideMeUp = entry.target.querySelector('.slideMeUp');
+//     const slideMeUp = entry.target.querySelector('.slideMeUp');
     
 
-    if (entry.isIntersecting) {
-      slideMeUp.classList.add('slideupAnimation');
+//     if (entry.isIntersecting) {
+//       slideMeUp.classList.add('slideupAnimation');
       
-	  return; // if we added the class, exit the function
-    }
+// 	  return; // if we added the class, exit the function
+//     }
 
-    // We're not intersecting, so remove the class!
-    slideMeUp.classList.remove('slideupAnimation');
+//     // We're not intersecting, so remove the class!
+//     slideMeUp.classList.remove('slideupAnimation');
     
-  });
-});
-observer.observe(document.querySelector('.slideMeUp-Wrapper'));
+//   });
+// });
+// observer.observe(document.querySelector('.slideMeUp-Wrapper'));
 
 
 

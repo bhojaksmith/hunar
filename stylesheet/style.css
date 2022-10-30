@@ -3,10 +3,10 @@ img{
 }
 .navbuttons div:hover{
   color:#000000 !important;
-  /* cursor: url('../assets/pointer.svg'),auto; */
+  /* cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'),auto; */
 }
 .navBarLogo{
-  cursor: url('../assets/pointer.svg'),auto;
+  cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'),auto;
 }
 
 .footerContainer{
@@ -65,9 +65,9 @@ body{
   margin: 0 !important;
   /* background: linear-gradient(to left, #efeaff, #FFFFFF);  */
   background-color: #f4f4f4 !important ;
-  /* background-image: url('../assets/background_svg.svg'); */
+  /* background-image: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/background_svg.svg'); */
   font-family: 'Montserrat', sans-serif !important;
-  cursor: url('../assets/cursor.svg'), auto;	
+  cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cursor.svg'), auto;	
   /* animation: backgroundColor 5s ease-in-out infinite; */
   
 
@@ -102,7 +102,7 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
   background: #512db3; 
-  cursor: url('../assets/pointer.svg'), auto;
+  cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'), auto;
 }
 
 
@@ -164,7 +164,7 @@ body{
  }
  .navbuttons .contact:hover{
   border:1px solid  white;
-   cursor: url('../assets/pointer.svg'),auto;
+   cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'),auto;
   background: black;
    color:#ffffff !important;
    
@@ -251,7 +251,7 @@ body{
 a:hover{
   text-decoration: none !important;
   color: #000000 !important;
-  cursor: url("../assets/pointer.svg"),auto;}
+  cursor: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg"),auto;}
 a{
   transition: 300ms ease-in;
   color: rgba(0, 0, 0, .4) !important;
@@ -265,7 +265,7 @@ a{
   display: flex;
   border: 1px solid black;
   padding: 2%;
-  cursor: url("../assets/pointer.svg"),auto;
+  cursor: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg"),auto;
 }
 .arrow{
   
@@ -298,31 +298,31 @@ a{
   font-weight: 800;
 }
 .uiux{
-  background: url('../assets/cards/uiux.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/uiux.webp');
 }
 .illustration{
-  background: url('../assets/cards/illustrations.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/illustrations.webp');
 }
 .photoediting{
-  background: url('../assets/cards/photoediting.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/photoediting.webp');
 }
 .magazine{
-  background: url('../assets/cards/magazine.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/magazine.webp');
 }
 .motion{
-  background: url('../assets/cards/motion.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/motion.webp');
 }
 .pitch{
-  background: url('../assets/cards/pitch.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/pitch.webp');
 }
 .branding{
-  background: url('../assets/cards/branding.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/branding.webp');
 }
 .consultancy{
-  background: url('../assets/cards/consultancy.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/consultancy.webp');
 }
 .connects{
-  background: url('../assets/cards/social.webp');
+  background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cards/social.webp');
 }
 .aboutContent{
   animation: slideUp 500ms ease-in-out;
@@ -335,7 +335,7 @@ a{
   background-position: center;
   background-size:100%;
   
-  background-image: url("../webp/about.webp");
+  background-image: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/about.webp");
   width: 100vw;
   height: 46vw;
   /* border: 1px solid; */
@@ -413,7 +413,7 @@ a{
 .innerCard:hover{
   
   filter: brightness(106%);
-  cursor: url('../assets/pointer.svg'), auto;
+  cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
 
@@ -564,7 +564,7 @@ transform: scale(1.02);
   text-decoration: underline;
 }
 .opensource:hover{
-  cursor: url("../assets/pointer.svg"), auto;
+  cursor: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg"), auto;
   color: #36008E;
 
 }
@@ -767,7 +767,7 @@ transform: scale(1.02);
   .aboutImageMain{
     background-position: center;
     background-size:100%;
-    background-image: url("../assets/aboutMobile.webp");
+    background-image: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/aboutMobile.webp");
     width: 100vw;
     position: relative !important;
     height: 65vw;    

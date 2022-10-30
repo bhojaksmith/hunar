@@ -27,15 +27,15 @@ a{
 .sub{
     animation: slideUp 500ms ease-in-out;
     padding: 0% 10%;
-    cursor: url('../assets/cursor.svg'),auto;
+    cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/cursor.svg'),auto;
 }
 .arrowBack{
     width: 1.5vw;
     transform: rotate(180deg);
-    cursor: url("../assets/pointer.svg"),auto;
+    cursor: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg"),auto;
 }
 .arrowBack:hover{
-    cursor: url("../assets/pointer.svg"),auto;
+    cursor: url("https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg"),auto;
 }
 .definition {
     border-radius: 0px;
@@ -115,183 +115,183 @@ a{
     grid-template-columns: auto auto auto;
 }
 .stellars{
-    background: url('../assets/product/stellars.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/stellars.webp');
 }
 .NeoFantasy{
-    background: url('../assets/product/NeoFantasy.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/NeoFantasy.webp');
 }
 
 .Footrax{
-    background: url('../assets/product/Footrax.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/Footrax.webp');
 }
 .AstroEnergyGuru{
-background: url('../assets/product/AstroEnergyGuru.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/AstroEnergyGuru.webp');
 }
 .FestingerVault{
-background: url('../assets/product/FestingerVault.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/FestingerVault.webp');
 }
 .neo2172{
-background: url('../assets/product/2172.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/2172.webp');
 }
 .parkingBae{
-background: url('../assets/product/parkingBae.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/parkingBae.webp');
 }
 .Inforida{
-background: url('../assets/product/Inforida.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/Inforida.webp');
 }
 .Babel{
-background: url('../assets/product/Babel.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/Babel.webp');
 }
 .Betterbarter{
-background: url('../assets/product/Betterbarter.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/Betterbarter.webp');
 }
 .sphereNews{
-background: url('../assets/product/sphereNews.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/sphereNews.webp');
 }
 .connect{
-background: url('../assets/product/connect.webp');
+background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/product/connect.webp');
 }
 .bhumi1{
-    background: url('../assets/illustrations/bhumi1.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/bhumi1.webp');
 }
 .bhumi2{
-    background: url('../assets/illustrations/bhumi2.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/bhumi2.webp');
 }
 .LisaMishra{
-    background: url('../assets/illustrations/LisaMishra.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/LisaMishra.webp');
 }
 .JuhiBhatt{
-    background: url('../assets/illustrations/JuhiBhatt.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/JuhiBhatt.webp');
 }
 .Manon{
-    background: url('../assets/illustrations/Manon.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/Manon.webp');
 }
 .GabyThomas{
-    background: url('../assets/illustrations/GabbyThomas1.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/GabbyThomas1.webp');
 }
 .GabyThomas_2{
-    background: url('../assets/illustrations/GabbyThomas2.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/GabbyThomas2.webp');
 }
 .SaharSaiyed{
-    background: url('../assets/illustrations/SaharSaiyed.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/SaharSaiyed.webp');
 }
 .SaharSaiyedRed{
-    background: url('../assets/illustrations/SaharSaiyedRed.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/SaharSaiyedRed.webp');
 }
 .AnushkaSen{
-    background: url('../assets/illustrations/AnushkaSen.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/AnushkaSen.webp');
 }
 .ShipraKhanna{
-    background: url('../assets/illustrations/ShipraKhanna.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/ShipraKhanna.webp');
 }
 .taapse{
-    background: url('../assets/editing/taapse.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/taapse.webp');
 }
 .indianCricketTeam{
-    background: url('../assets/editing/indianCricketTeam.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/indianCricketTeam.webp');
 }
 .klaudia{
-    background: url('../assets/editing/klaudia.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/klaudia.webp');
 }
 .klaudia2{
-    background: url('../assets/editing/klaudia2.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/klaudia2.webp');
 }
 .rohit{
-    background: url('../assets/editing/rohit.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/rohit.webp');
 }
 .pollard{
-    background: url('../assets/editing/pollard.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/pollard.webp');
 }
 .krunalPandya{
-    background: url('../assets/editing/krunalPandya.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/krunalPandya.webp');
 }
 .barbara{
-    background: url('../assets/editing/barbara.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/barbara.webp');
 }
 .michelle{
-    background: url('../assets/editing/michelle.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/michelle.webp');
 }
 .angelina{
-    background: url('../assets/editing/angelina.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/angelina.webp');
 }
 .angelina2{
-    background: url('../assets/editing/angelina2.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/angelina2.webp');
 }
 .louann{
-    background: url('../assets/editing/louann.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/louann.webp');
 }
 .marta{
-    background: url('../assets/editing/marta.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/marta.webp');
 }
 .gabbyThomas{
-    background: url('../assets/editing/gabbyThomas.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/gabbyThomas.webp');
 }
 .dishaPatani{
-    background: url('../assets/editing/dishaPatani.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/dishaPatani.webp');
 }
 .paulina{
-    background: url('../assets/editing/paulina.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/paulina.webp');
 }
 .nikitaGajjar{
-    background: url('../assets/editing/nikitaGajjar.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/nikitaGajjar.webp');
 }
 .adriana{
-    background: url('../assets/editing/adriana.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/adriana.webp');
 }
 .neofantasy{
-    background: url('../assets/pitch/neofantasyPitchDeck.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pitch/neofantasyPitchDeck.webp');
 }
 .nextblock{
-    background: url('../assets/pitch/NextBlockPitchDeck.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pitch/NextBlockPitchDeck.webp');
 }
 .betterbarter{
-    background: url('../assets/pitch/BetterBarterPitchDeck.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pitch/BetterBarterPitchDeck.webp');
 }
 .bdesigner{
-    background: url('../assets/branding/bdesigner.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/bdesigner.webp');
 }
 .meraki{
-    background: url('../assets/branding/meraki.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/meraki.webp');
 }
 .ms{
-    background: url('../assets/branding/ms.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/ms.webp');
 }
 .lohana{
-    background: url('../assets/branding/lohana.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/lohana.webp');
     
 }
 .lfa17{
-    background: url('../assets/magazine/lfa17.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/magazine/lfa17.webp');
 }
 .lfa16{
-    background: url('../assets/magazine/lfa16.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/magazine/lfa16.webp');
 }
 .barVideo{
-    background: url('../assets/motion/bar.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/motion/bar.webp');
 }
 .bdesignerBOX{
-    background: url('../assets/motion/bdesignerBOX.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/motion/bdesignerBOX.webp');
 }
 .bdesignerBOX{
-    background: url('../assets/motion/bdesignerBOX.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/motion/bdesignerBOX.webp');
 }
 .lfa{
-    background: url('../assets/social/LFAHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/LFAHeader.webp');
 }
 .aarchik{
-    background: url('../assets/social/aarchikHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/aarchikHeader.webp');
 }
 .mindra{
-    background: url('../assets/social/MindraHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/MindraHeader.webp');
 }
 .designtalks{
-    background: url('../assets/social/DesignTalkHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/DesignTalkHeader.webp');
 }
 .letsbiz{
-    background: url('../assets/social/letsbizHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/letsbizHeader.webp');
 }
 .neofantasySocial{
-    background: url('../assets/social/neofantasyHeader.webp');
+    background: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/social/neofantasyHeader.webp');
 }
 .pitchDeck{
     
@@ -432,7 +432,7 @@ background: url('../assets/product/connect.webp');
 .pitchDeck:hover,.illustrations:hover,.productCard:hover,.magazineCard:hover{
   transform: scale(1.025);
   /* filter: brightness(105%); */
-  cursor: url('../assets/pointer.svg'), auto;
+  cursor: url('https://apnbjdtser.cloudimg.io/hunar.design/assets/pointer.svg'), auto;
   box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.1); 
 }
 

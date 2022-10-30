@@ -77,57 +77,57 @@ $.get("../navigation.html", function(data){
 
 function setStellars(){
   
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Stellars School Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Stellars School Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 
 function setNeofantasy(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/NeoFanTasy Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/NeoFanTasy Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setFootrax(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Footrax Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Footrax Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setAstro(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Astro Energy Guru.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Astro Energy Guru.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setFestinger(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Festinger Vault.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Festinger Vault.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function set21by72(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/21 BY 72 Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/21 BY 72 Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setParkingBae(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Parking Bae Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Parking Bae Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setInforida(){
   
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/Inforida Case Study.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/Inforida Case Study.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
 }
 function setSphere(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/caseStudies/.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/caseStudies/.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -141,7 +141,7 @@ function setTapsee(){
   
   $('.ContainerTitle').html("Tapsee Pannu");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/taapse.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/taapse.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -150,7 +150,7 @@ function setTapsee(){
 function setINC(){
   $('.ContainerTitle').html("Indian National Cricket Team");
   $('.ContainerSubtitle').html("World test championship");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/indianCricketTeam.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/indianCricketTeam.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -159,7 +159,7 @@ function setINC(){
 function setklaudia(){
   $('.ContainerTitle').html("Klaudia Nicole");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/klaudia.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/klaudia.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -168,7 +168,7 @@ function setklaudia(){
 function setklaudia2(){
   $('.ContainerTitle').html("Tapsee Pannu");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/klaudia2.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/klaudia2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -177,7 +177,7 @@ function setklaudia2(){
 function setRohit(){
   $('.ContainerTitle').html("Rohit Sharma");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/rohit.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/rohit.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -186,7 +186,7 @@ function setRohit(){
 function setPollard(){
   $('.ContainerTitle').html("Kieron Pollard");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/pollard.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/pollard.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -195,7 +195,7 @@ function setPollard(){
 function setKrunalPandya(){
   $('.ContainerTitle').html("Krunal Pandya");
   $('.ContainerSubtitle').html("Sports Celebrity");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/krunalPandya.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/krunalPandya.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -204,7 +204,7 @@ function setKrunalPandya(){
 function setBarbara(){
   $('.ContainerTitle').html("Barbara");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/barbara.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/barbara.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -213,7 +213,7 @@ function setBarbara(){
 function setMichelle(){
   $('.ContainerTitle').html("Michelle Dalton");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/michelle.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/michelle.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -222,7 +222,7 @@ function setMichelle(){
 function setAngelina(){
   $('.ContainerTitle').html("Angelina");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/angelina.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/angelina.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -231,7 +231,7 @@ function setAngelina(){
 function setAngelina2(){
   $('.ContainerTitle').html("Angelina");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/angelina2.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/angelina2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -240,7 +240,7 @@ function setAngelina2(){
 function setLouann(){
   $('.ContainerTitle').html("Louann");
   $('.ContainerSubtitle').html("Gamer");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/louann.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/louann.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -249,7 +249,7 @@ function setLouann(){
 function setMarta(){
   $('.ContainerTitle').html("Marta Ratia");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/marta.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/marta.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -258,7 +258,7 @@ function setMarta(){
 function setDishaPatani(){
   $('.ContainerTitle').html("Disha Patani");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/dishaPatani.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/dishaPatani.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -267,7 +267,7 @@ function setDishaPatani(){
 function setPaulina(){
   $('.ContainerTitle').html("Paulina Karpenko");
   $('.ContainerSubtitle').html("Fashion Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/paulina.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/paulina.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -276,7 +276,7 @@ function setPaulina(){
 function setNikita(){
   $('.ContainerTitle').html("Nikkita Gajjar");
   $('.ContainerSubtitle').html("Wedding Album");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/nikitaGajjar.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/nikitaGajjar.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -285,7 +285,7 @@ function setNikita(){
 function setAdriana(){
   $('.ContainerTitle').html("Adriana");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/adriana.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/adriana.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -293,7 +293,7 @@ function setAdriana(){
 function setGabbyThomasPhoto(){
   $('.ContainerTitle').html("Gabby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/editing/GabbyThomas.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/editing/GabbyThomas.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -302,7 +302,7 @@ function setGabbyThomasPhoto(){
 function setBhumi1(){
   $('.ContainerTitle').html("Bhumi Kelaiya");
   $('.ContainerSubtitle').html("Canikography");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/bhumi1.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/bhumi1.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -310,7 +310,7 @@ function setBhumi1(){
 function setBhumi2(){
   $('.ContainerTitle').html("Bhumi Kelaiya");
   $('.ContainerSubtitle').html("Canikography");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/bhumi2.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/bhumi2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -318,7 +318,7 @@ function setBhumi2(){
 function LisaMishra(){
   $('.ContainerTitle').html("Lisa Mishra");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/lisa.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/lisa.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -326,7 +326,7 @@ function LisaMishra(){
 function JuhiBhatt(){
   $('.ContainerTitle').html("Juhi Bhatt");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/JuhiBhatt.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/JuhiBhatt.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -334,7 +334,7 @@ function JuhiBhatt(){
 function manon(){
   $('.ContainerTitle').html("Manon");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/Manon.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/Manon.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -342,7 +342,7 @@ function manon(){
 function GabyThomas(){
   $('.ContainerTitle').html("Gaby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/GabbyThomas1.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/GabbyThomas1.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -350,7 +350,7 @@ function GabyThomas(){
 function GabyThomas_2(){
   $('.ContainerTitle').html("Gaby Thomas");
   $('.ContainerSubtitle').html("Model");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/GabbyThomas2.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/GabbyThomas2.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -358,7 +358,7 @@ function GabyThomas_2(){
 function SaharSaiyed(){
   $('.ContainerTitle').html("Sahar Saiyed");
   $('.ContainerSubtitle').html("Fan Art");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/SaharSaiyed.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/SaharSaiyed.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -366,7 +366,7 @@ function SaharSaiyed(){
 function SaharSaiyedRed(){
   $('.ContainerTitle').html("Sahar Saiyed");
   $('.ContainerSubtitle').html("Fan Art");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/SaharSaiyedRed.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/SaharSaiyedRed.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
        
   });
@@ -374,7 +374,7 @@ function SaharSaiyedRed(){
 function AnushkaSen(){
   $('.ContainerTitle').html("Anushka Sen");
   $('.ContainerSubtitle').html("Actor");
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/AnushkaSen.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/AnushkaSen.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
   
   });
@@ -383,34 +383,34 @@ function ShipraKhanna(){
   $('.ContainerTitle').html("Shipra Khanna");
   $('.ContainerSubtitle').html("Masterchef India Winner");
   
-  document.querySelector('.imageLarge').setAttribute('src','../assets/illustrations/ShipraKhanna.webp') ;
+  document.querySelector('.imageLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/illustrations/ShipraKhanna.webp') ;
     $('.imageLarge').imagesLoaded({ background: true }, function() {
   
   });
 }
 
 function setBdesigner(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/BdesignerBranding.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/BdesignerBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 
 function setMeraki(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MerakiBranding.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/MerakiBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 function setMS(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/MSBRANDING.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/MSBRANDING.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
 }
 
 function setLohana(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/branding/LohanaBranding.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/branding/LohanaBranding.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
       
   });
@@ -418,43 +418,43 @@ function setLohana(){
 }
 
 function setlfa16(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa16Detail.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/magazine/lfa16Detail.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 
 function setlfa17(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/magazine/lfa17Detail.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/magazine/lfa17Detail.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setlfa(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/lfacontent.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/lfacontent.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setAarchik(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/aarchik.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/aarchik.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setMindra(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/mindra.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/mindra.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setDesigntalks(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/designtalks.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/designtalks.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setNeofantasySocial(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/neofantasycontent.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/neofantasycontent.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }
 function setletsbiz(){
-  document.querySelector('.productLarge').setAttribute('src','../assets/social/letsbiz.webp') ;
+  document.querySelector('.productLarge').setAttribute('src','https://apnbjdtser.cloudimg.io/hunar.design/assets/social/letsbiz.webp') ;
     $('.productLarge').imagesLoaded({ background: true }, function() {
   });
 }

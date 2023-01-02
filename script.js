@@ -9,26 +9,29 @@ function blogs(){
 });
 }
 function run(){
-    console.log('function Called')
-    $('.content').imagesLoaded({ background: true }, function() {
-        console.log('images loaded')
-        setTimeout(removeLoader, 1500);
-      });
-    $('.sub').imagesLoaded({ background: true }, function() {   
-      console.log('images loaded')
-      setTimeout(removeLoader, 1500);
-  });
+  $(window).on('load',function(){
+    setTimeout(function () {
+      $('.loader').hide();
+      $('.content').fadeIn();
+    }, 1500);
+   }); 
+   $(window).on('load',function(){
+    setTimeout(function () {
+      $('.loader').hide();
+      $('.sub').fadeIn();
+    }, 1500);
+   }); 
  }
 
- function removeLoader(){
+//  function removeLoader(){
     
-    let loader = document.querySelector(".loader");
-    let content = document.querySelector(".content");
-    console.log("Removing Loader");
-    loader.style.display = 'none' 
-    content.style.display = 'block';
+//     let loader = document.querySelector(".loader");
+//     let content = document.querySelector(".content");
+//     console.log("Removing Loader");
+//     loader.style.display = 'none' 
+//     content.style.display = 'block';
     
-    }
+//     }
 
 $.get("../navigation.html", function(data){
       $(".navigation").replaceWith(data);

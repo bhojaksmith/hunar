@@ -39,7 +39,7 @@
   <body onload="run()">
     <div class="content" style="display: none;">
       <div class="navigation"></div>
-      <div class="main">
+      <div class="main" data-barba="container" data-barba-namespace="home">
         <div class="heroSection">
           <div class="heroContent">
             <div class="heroText">
@@ -236,6 +236,8 @@
 testimonailObserver.observe(document.querySelector('.testimonialContainer'));
 
     </script>
+        <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
     <style>
       .home a {
         color: #000000 !important;
